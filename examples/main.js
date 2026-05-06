@@ -1,3 +1,7 @@
+// /examples/main.js
+
+import fs from "fs";
+
 import TaleemEngine from "../src/index.js";
 
 TaleemEngine.at(0)
@@ -12,4 +16,13 @@ TaleemEngine.at(20)
 
 TaleemEngine.end(40);
 
-console.dir(TaleemEngine.build(), { depth: null });
+const presentation = TaleemEngine.build();
+
+console.dir(presentation, { depth: null });
+
+fs.writeFileSync(
+  "./examples/main.json",
+  JSON.stringify(presentation, null, 2)
+);
+
+console.log("\n✅ main.json written successfully");

@@ -1,5 +1,9 @@
+// /src/dsl/index.js
+
 import TimelineContext from "./TimelineContext.js";
-import {compileTimings} from "./compileTimings.js";
+import { build } from "../compiler/index.js";
+
+/////////////////////////////////////////////////////
 
 export default class Builder {
   constructor() {
@@ -29,10 +33,6 @@ export default class Builder {
   }
 
   build() {
-    compileTimings(this.deck, this.presentationEnd);
-
-    return this.deck;
+    return build(this);
   }
-
-
 }
