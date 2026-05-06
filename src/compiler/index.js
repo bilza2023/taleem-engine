@@ -63,6 +63,10 @@ export function build(
             compiled.animation,
 
           items:
+            compiled.primitiveItems
+
+            ??
+
             compiled.ids.map(
               (id, index) => ({
                 id,

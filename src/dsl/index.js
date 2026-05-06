@@ -1,4 +1,3 @@
-
 // /src/dsl/index.js
 
 import TimelineContext from "./TimelineContext.js";
@@ -10,6 +9,14 @@ import BulletListBuilder from "./slides/BulletListBuilder.js";
 import SkeletonSlideBuilder from "./slides/SkeletonSlideBuilder.js";
 
 import FocusListBuilder from "./slides/FocusListBuilder.js";
+
+import Eq from "./slides/Eq.js";
+
+import Table from "./slides/Table.js";
+
+import BarChart from "./slides/BarChart.js";
+
+import Progressbar from "./slides/Progressbar.js";
 
 /////////////////////////////////////////////////////
 
@@ -105,6 +112,90 @@ export default class Builder {
     this.deck.push(slide);
 
     return new FocusListBuilder(
+      slide,
+      this
+    );
+  }
+
+  eq(
+    start = null,
+    end = null
+  ) {
+    const slide = {
+      type: "eq",
+
+      start,
+      end,
+
+      data: []
+    };
+
+    this.deck.push(slide);
+
+    return new Eq(
+      slide,
+      this
+    );
+  }
+
+  table(
+    start = null,
+    end = null
+  ) {
+    const slide = {
+      type: "table",
+
+      start,
+      end,
+
+      data: []
+    };
+
+    this.deck.push(slide);
+
+    return new Table(
+      slide,
+      this
+    );
+  }
+
+  barChart(
+    start = null,
+    end = null
+  ) {
+    const slide = {
+      type: "barChart",
+
+      start,
+      end,
+
+      data: []
+    };
+
+    this.deck.push(slide);
+
+    return new BarChart(
+      slide,
+      this
+    );
+  }
+
+  progressbar(
+    start = null,
+    end = null
+  ) {
+    const slide = {
+      type: "progressbar",
+
+      start,
+      end,
+
+      data: []
+    };
+
+    this.deck.push(slide);
+
+    return new Progressbar(
       slide,
       this
     );
