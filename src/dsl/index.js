@@ -1,14 +1,19 @@
 // /src/dsl/index.js
 
 import TimelineContext from "./TimelineContext.js";
+
 import { build } from "../compiler/index.js";
+
+import BulletListBuilder from "./slides/BulletListBuilder.js";
+import SkeletonSlideBuilder from "./slides/SkeletonSlideBuilder.js";
 
 /////////////////////////////////////////////////////
 
 export default class Builder {
   constructor() {
     this.metaData = {
-      name: "Untitled Deck"
+      name: "Untitled Deck",
+         base: ""
     };
 
     this.backgroundData = {
@@ -32,7 +37,45 @@ export default class Builder {
     return this;
   }
 
+  bulletList(start = null, end = null) {
+    const slide = {
+      type: "bulletList",
+
+      start,
+      end,
+
+      data: []
+    };
+
+    this.deck.push(slide);
+
+    return new BulletListBuilder(
+      slide,
+      this
+    );
+  }
+
+  skeletonSlide(start = null, end = null) {
+    const slide = {
+      type: "skeletonSlide",
+
+      start,
+      end,
+
+      data: []
+    };
+
+    this.deck.push(slide);
+
+    return new SkeletonSlideBuilder(
+      slide,
+      this
+    );
+  }
   build() {
-    return build(this);
+    return build(this, {
+      assetBase:
+        this.metaData.base
+    });
   }
 }
