@@ -18,6 +18,34 @@ import BarChart from "./slides/BarChart.js";
 
 import Progressbar from "./slides/Progressbar.js";
 
+import TitleAndSubtitle from "./slides/TitleAndSubtitle.js";
+
+import TitleAndPara from "./slides/TitleAndPara.js";
+
+import TwoColumnText from "./slides/TwoColumnText.js";
+
+import ImageSlide from "./slides/ImageSlide.js";
+
+import ImageWithTitle from "./slides/ImageWithTitle.js";
+
+import ImageWithCaption from "./slides/ImageWithCaption.js";
+
+import ImageLeftBulletsRight from "./slides/ImageLeftBulletsRight.js";
+
+import ImageRightBulletsLeft from "./slides/ImageRightBulletsLeft.js";
+
+import QuoteSlide from "./slides/QuoteSlide.js";
+
+import KeyIdeasSlide from "./slides/KeyIdeasSlide.js";
+
+import FillImage from "./slides/FillImage.js";
+
+import ImageStrip from "./slides/ImageStrip.js";
+
+import ImageGrid from "./slides/ImageGrid.js";
+
+import TextGrid from "./slides/TextGrid.js";
+
 /////////////////////////////////////////////////////
 
 export default class Builder {
@@ -54,86 +82,143 @@ export default class Builder {
     return this;
   }
 
+  createSlide(type, start, end) {
+    const slide = {
+      type,
+
+      start,
+      end,
+
+      data: []
+    };
+
+    this.deck.push(slide);
+
+    return slide;
+  }
+
+  titleAndSubtitle(
+    start = null,
+    end = null
+  ) {
+    return new TitleAndSubtitle(
+      this.createSlide(
+        "titleAndSubtitle",
+        start,
+        end
+      ),
+      this
+    );
+  }
+
+  titleAndPara(
+    start = null,
+    end = null
+  ) {
+    return new TitleAndPara(
+      this.createSlide(
+        "titleAndPara",
+        start,
+        end
+      ),
+      this
+    );
+  }
+
   bulletList(
     start = null,
     end = null
   ) {
-    const slide = {
-      type: "bulletList",
-
-      start,
-      end,
-
-      data: []
-    };
-
-    this.deck.push(slide);
-
     return new BulletListBuilder(
-      slide,
+      this.createSlide(
+        "bulletList",
+        start,
+        end
+      ),
       this
     );
   }
 
-  skeletonSlide(
+  twoColumnText(
     start = null,
     end = null
   ) {
-    const slide = {
-      type: "skeletonSlide",
-
-      start,
-      end,
-
-      data: []
-    };
-
-    this.deck.push(slide);
-
-    return new SkeletonSlideBuilder(
-      slide,
+    return new TwoColumnText(
+      this.createSlide(
+        "twoColumnText",
+        start,
+        end
+      ),
       this
     );
   }
 
-  focusList(
+  imageSlide(
     start = null,
     end = null
   ) {
-    const slide = {
-      type: "focusList",
-
-      start,
-      end,
-
-      data: []
-    };
-
-    this.deck.push(slide);
-
-    return new FocusListBuilder(
-      slide,
+    return new ImageSlide(
+      this.createSlide(
+        "imageSlide",
+        start,
+        end
+      ),
       this
     );
   }
 
-  eq(
+  imageWithTitle(
     start = null,
     end = null
   ) {
-    const slide = {
-      type: "eq",
+    return new ImageWithTitle(
+      this.createSlide(
+        "imageWithTitle",
+        start,
+        end
+      ),
+      this
+    );
+  }
 
-      start,
-      end,
+  imageWithCaption(
+    start = null,
+    end = null
+  ) {
+    return new ImageWithCaption(
+      this.createSlide(
+        "imageWithCaption",
+        start,
+        end
+      ),
+      this
+    );
+  }
 
-      data: []
-    };
+  imageLeftBulletsRight(
+    start = null,
+    end = null
+  ) {
+    return new ImageLeftBulletsRight(
+      this.createSlide(
+        "imageLeftBulletsRight",
+        start,
+        end
+      ),
+      this
+    );
+  }
 
-    this.deck.push(slide);
-
-    return new Eq(
-      slide,
+  imageRightBulletsLeft(
+    start = null,
+    end = null
+  ) {
+    return new ImageRightBulletsLeft(
+      this.createSlide(
+        "imageRightBulletsLeft",
+        start,
+        end
+      ),
       this
     );
   }
@@ -142,19 +227,12 @@ export default class Builder {
     start = null,
     end = null
   ) {
-    const slide = {
-      type: "table",
-
-      start,
-      end,
-
-      data: []
-    };
-
-    this.deck.push(slide);
-
     return new Table(
-      slide,
+      this.createSlide(
+        "table",
+        start,
+        end
+      ),
       this
     );
   }
@@ -163,19 +241,12 @@ export default class Builder {
     start = null,
     end = null
   ) {
-    const slide = {
-      type: "barChart",
-
-      start,
-      end,
-
-      data: []
-    };
-
-    this.deck.push(slide);
-
     return new BarChart(
-      slide,
+      this.createSlide(
+        "barChart",
+        start,
+        end
+      ),
       this
     );
   }
@@ -184,19 +255,138 @@ export default class Builder {
     start = null,
     end = null
   ) {
-    const slide = {
-      type: "progressbar",
-
-      start,
-      end,
-
-      data: []
-    };
-
-    this.deck.push(slide);
-
     return new Progressbar(
-      slide,
+      this.createSlide(
+        "progressbar",
+        start,
+        end
+      ),
+      this
+    );
+  }
+
+  quoteSlide(
+    start = null,
+    end = null
+  ) {
+    return new QuoteSlide(
+      this.createSlide(
+        "quoteSlide",
+        start,
+        end
+      ),
+      this
+    );
+  }
+
+  keyIdeasSlide(
+    start = null,
+    end = null
+  ) {
+    return new KeyIdeasSlide(
+      this.createSlide(
+        "keyIdeasSlide",
+        start,
+        end
+      ),
+      this
+    );
+  }
+
+  focusList(
+    start = null,
+    end = null
+  ) {
+    return new FocusListBuilder(
+      this.createSlide(
+        "focusList",
+        start,
+        end
+      ),
+      this
+    );
+  }
+
+  eq(
+    start = null,
+    end = null
+  ) {
+    return new Eq(
+      this.createSlide(
+        "eq",
+        start,
+        end
+      ),
+      this
+    );
+  }
+
+  fillImage(
+    start = null,
+    end = null
+  ) {
+    return new FillImage(
+      this.createSlide(
+        "fillImage",
+        start,
+        end
+      ),
+      this
+    );
+  }
+
+  imageStrip(
+    start = null,
+    end = null
+  ) {
+    return new ImageStrip(
+      this.createSlide(
+        "imageStrip",
+        start,
+        end
+      ),
+      this
+    );
+  }
+
+  imageGrid(
+    start = null,
+    end = null
+  ) {
+    return new ImageGrid(
+      this.createSlide(
+        "imageGrid",
+        start,
+        end
+      ),
+      this
+    );
+  }
+
+  textGrid(
+    start = null,
+    end = null
+  ) {
+    return new TextGrid(
+      this.createSlide(
+        "textGrid",
+        start,
+        end
+      ),
+      this
+    );
+  }
+
+  skeleton(
+    start = null,
+    end = null
+  ) {
+    return new SkeletonSlideBuilder(
+      this.createSlide(
+        "skeleton",
+        start,
+        end
+      ),
       this
     );
   }
