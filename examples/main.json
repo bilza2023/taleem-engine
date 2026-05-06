@@ -10,7 +10,7 @@
       "type": "bulletList",
       "start": 0,
       "end": 6,
-      "html": "\n    <section class=\"slide bulletList\">\n      <ul>\n        \n              <li\n                id=\"imou7017x1\"\n                class=\"hidden\"\n              >\n                Point 1\n              </li>\n            \n              <li\n                id=\"imou7017x2\"\n                class=\"hidden\"\n              >\n                Point 2\n              </li>\n            \n      </ul>\n    </section>\n  ",
+      "html": "\n    <section class=\"slide bulletList\">\n      <ul>\n        \n              <li\n                id=\"imoudos8w1\"\n                class=\"hidden\"\n              >\n                Point 1\n              </li>\n            \n              <li\n                id=\"imoudos8w2\"\n                class=\"hidden\"\n              >\n                Point 2\n              </li>\n            \n      </ul>\n    </section>\n  ",
       "groups": {
         "hidden": [
           "hidden"
@@ -21,7 +21,7 @@
           "time": 0,
           "state": {
             "hidden": [
-              "imou7017x2"
+              "imoudos8w2"
             ]
           }
         },
@@ -34,37 +34,94 @@
       ]
     },
     {
-      "type": "bulletList",
+      "type": "focusList",
       "start": 6,
-      "end": 12,
-      "html": "\n    <section class=\"slide bulletList\">\n      <ul>\n        \n              <li\n                id=\"imou7017x3\"\n                class=\"hidden\"\n              >\n                Another slide\n              </li>\n            \n              <li\n                id=\"imou7017x4\"\n                class=\"hidden\"\n              >\n                Yey Another point\n              </li>\n            \n      </ul>\n    </section>\n  ",
+      "end": 16,
+      "html": "\n    <section class=\"slide focusList\">\n\n      \n            <h1\n              id=\"imoudos8w3\"\n              class=\"\"\n            >\n              Core Principles\n            </h1>\n          \n\n      <ul>\n        \n              <li\n                id=\"imoudos8w4\"\n                class=\"\"\n              >\n                Clarity comes from structure\n              </li>\n            \n              <li\n                id=\"imoudos8w5\"\n                class=\"\"\n              >\n                State defines everything\n              </li>\n            \n              <li\n                id=\"imoudos8w6\"\n                class=\"\"\n              >\n                Deterministic behavior\n              </li>\n            \n              <li\n                id=\"imoudos8w7\"\n                class=\"\"\n              >\n                Player stays dumb\n              </li>\n            \n      </ul>\n\n    </section>\n  ",
       "groups": {
-        "hidden": [
-          "hidden"
+        "focus": [],
+        "dim": [
+          "dim"
         ]
       },
       "actions": [
         {
           "time": 6,
           "state": {
-            "hidden": [
-              "imou7017x4"
+            "focus": [
+              "imoudos8w3"
+            ],
+            "dim": [
+              "imoudos8w4",
+              "imoudos8w5",
+              "imoudos8w6",
+              "imoudos8w7"
+            ]
+          }
+        },
+        {
+          "time": 7,
+          "state": {
+            "focus": [
+              "imoudos8w4"
+            ],
+            "dim": [
+              "imoudos8w3",
+              "imoudos8w5",
+              "imoudos8w6",
+              "imoudos8w7"
             ]
           }
         },
         {
           "time": 9,
           "state": {
-            "hidden": []
+            "focus": [
+              "imoudos8w5"
+            ],
+            "dim": [
+              "imoudos8w3",
+              "imoudos8w4",
+              "imoudos8w6",
+              "imoudos8w7"
+            ]
+          }
+        },
+        {
+          "time": 11,
+          "state": {
+            "focus": [
+              "imoudos8w6"
+            ],
+            "dim": [
+              "imoudos8w3",
+              "imoudos8w4",
+              "imoudos8w5",
+              "imoudos8w7"
+            ]
+          }
+        },
+        {
+          "time": 13,
+          "state": {
+            "focus": [
+              "imoudos8w7"
+            ],
+            "dim": [
+              "imoudos8w3",
+              "imoudos8w4",
+              "imoudos8w5",
+              "imoudos8w6"
+            ]
           }
         }
       ]
     },
     {
       "type": "skeletonSlide",
-      "start": 12,
-      "end": 24,
-      "html": "\n    <section class=\"slide skeleton\">\n\n      <div class=\"skeleton-body\">\n        \n        <h1\n          id=\"imou7017x5\"\n          class=\"hidden \"\n        >\n          What is Algebra?\n        </h1>\n      \n        <p\n          id=\"imou7017x6\"\n          class=\"hidden \"\n        >\n          Algebra uses symbols to represent numbers.\n        </p>\n      \n        <div\n          id=\"imou7017x7\"\n          class=\"skeleton-image hidden \"\n        >\n          <img src=\"/content/images/algebra.png\" />\n        </div>\n      \n      </div>\n\n    </section>\n  ",
+      "start": 16,
+      "end": 28,
+      "html": "\n    <section class=\"slide skeleton\">\n\n      <div class=\"skeleton-body\">\n        \n        <h1\n          id=\"imoudos8x8\"\n          class=\"hidden \"\n        >\n          What is Algebra?\n        </h1>\n      \n        <p\n          id=\"imoudos8x9\"\n          class=\"hidden \"\n        >\n          Algebra uses symbols to represent numbers.\n        </p>\n      \n        <div\n          id=\"imoudos8xa\"\n          class=\"skeleton-image hidden \"\n        >\n          <img src=\"/content/images/box.webp\" />\n        </div>\n      \n      </div>\n\n    </section>\n  ",
       "groups": {
         "visible": [],
         "hidden": [
@@ -73,38 +130,38 @@
       },
       "actions": [
         {
-          "time": 12,
+          "time": 16,
           "state": {
             "visible": [
-              "imou7017x5"
+              "imoudos8x8"
             ],
             "hidden": [
-              "imou7017x6",
-              "imou7017x7"
+              "imoudos8x9",
+              "imoudos8xa"
             ]
           }
         },
         {
-          "time": 15,
+          "time": 19,
           "state": {
             "visible": [
-              "imou7017x6"
+              "imoudos8x9"
             ],
             "hidden": [
-              "imou7017x5",
-              "imou7017x7"
+              "imoudos8x8",
+              "imoudos8xa"
             ]
           }
         },
         {
-          "time": 18,
+          "time": 22,
           "state": {
             "visible": [
-              "imou7017x7"
+              "imoudos8xa"
             ],
             "hidden": [
-              "imou7017x5",
-              "imou7017x6"
+              "imoudos8x8",
+              "imoudos8x9"
             ]
           }
         }

@@ -1,16 +1,12 @@
+
 // /examples/main.js
+
 import fs from "fs";
 import TaleemEngine from "../src/index.js";
-
-// --------------------------------------------------
-// config
-// --------------------------------------------------
 
 TaleemEngine.metaData.base =
   "/content/images/";
 
-// --------------------------------------------------
-// slide 1
 // --------------------------------------------------
 
 TaleemEngine.at(0)
@@ -19,36 +15,29 @@ TaleemEngine.at(0)
   .bullet("Point 2", 3);
 
 // --------------------------------------------------
-// slide 2
-// --------------------------------------------------
 
 TaleemEngine.at(6)
-  .bulletList()
-  .bullet("Another slide", 6)
-  .bullet("Yey Another point", 9);
+  .focusList()
+  .heading("Core Principles", 6)
+  .bullet("Clarity comes from structure", 7)
+  .bullet("State defines everything", 9)
+  .bullet("Deterministic behavior", 11)
+  .bullet("Player stays dumb", 13);
 
 // --------------------------------------------------
-// slide 3
-// --------------------------------------------------
 
-TaleemEngine.at(12)
+TaleemEngine.at(16)
   .skeletonSlide()
-  .title(
-    "What is Algebra?",
-    12
-  )
+  .title("What is Algebra?", 16)
   .para(
     "Algebra uses symbols to represent numbers.",
-    15
+    19
   )
-  .image(
-    "algebra.png",
-    18
-  );
+  .image("algebra.png", 22);
 
 // --------------------------------------------------
 
-TaleemEngine.end(24);
+TaleemEngine.end(28);
 
 // --------------------------------------------------
 
@@ -72,6 +61,8 @@ fs.writeFileSync(
     2
   )
 );
+
+// --------------------------------------------------
 
 console.log(
   "\n✅ main.json written successfully"

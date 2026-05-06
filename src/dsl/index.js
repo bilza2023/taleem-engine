@@ -1,3 +1,4 @@
+
 // /src/dsl/index.js
 
 import TimelineContext from "./TimelineContext.js";
@@ -5,7 +6,10 @@ import TimelineContext from "./TimelineContext.js";
 import { build } from "../compiler/index.js";
 
 import BulletListBuilder from "./slides/BulletListBuilder.js";
+
 import SkeletonSlideBuilder from "./slides/SkeletonSlideBuilder.js";
+
+import FocusListBuilder from "./slides/FocusListBuilder.js";
 
 /////////////////////////////////////////////////////
 
@@ -13,12 +17,15 @@ export default class Builder {
   constructor() {
     this.metaData = {
       name: "Untitled Deck",
-         base: ""
+
+      base: ""
     };
 
     this.backgroundData = {
       backgroundColor: "#111111",
+
       backgroundImage: null,
+
       backgroundImageOpacity: 0.3
     };
 
@@ -28,7 +35,10 @@ export default class Builder {
   }
 
   at(time) {
-    return new TimelineContext(this, time);
+    return new TimelineContext(
+      this,
+      time
+    );
   }
 
   end(time) {
@@ -37,7 +47,10 @@ export default class Builder {
     return this;
   }
 
-  bulletList(start = null, end = null) {
+  bulletList(
+    start = null,
+    end = null
+  ) {
     const slide = {
       type: "bulletList",
 
@@ -55,7 +68,10 @@ export default class Builder {
     );
   }
 
-  skeletonSlide(start = null, end = null) {
+  skeletonSlide(
+    start = null,
+    end = null
+  ) {
     const slide = {
       type: "skeletonSlide",
 
@@ -72,6 +88,28 @@ export default class Builder {
       this
     );
   }
+
+  focusList(
+    start = null,
+    end = null
+  ) {
+    const slide = {
+      type: "focusList",
+
+      start,
+      end,
+
+      data: []
+    };
+
+    this.deck.push(slide);
+
+    return new FocusListBuilder(
+      slide,
+      this
+    );
+  }
+
   build() {
     return build(this, {
       assetBase:
