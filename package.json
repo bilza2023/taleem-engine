@@ -1,13 +1,32 @@
 {
   "name": "taleem-engine",
-  "version": "0.0.1",
-  "description": "",
-    "type": "module",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "version": "1.0.0",
+  "description": "Deterministic educational presentation engine",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+   "test": "vitest",
+    "example": "node examples/golden-dsl.js"
+  },
+  "keywords": [
+    "presentation",
+    "slides",
+    "education",
+    "compiler",
+    "animation",
+    "learning",
+    "taleem"
+  ],
+  "author": "Bilal Tariq",
+  "license": "MIT",
+  "dependencies": {
+    "vitest": "^4.1.5"
+  }
 }

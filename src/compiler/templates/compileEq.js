@@ -1,121 +1,135 @@
-// /src/compiler/templates/compileEq.js
-
 import { addIdToItems } from "./helpers/addIdToItems.js";
 
 export function compileEq(slide) {
-  const rawItems = slide.data ?? [];
+	const rawItems = slide.data ?? [];
 
-  if (!rawItems.length) {
-    throw new Error(
-      "eq: requires lines"
-    );
-  }
+	if (!rawItems.length) {
+		throw new Error(
+			"eq: requires lines"
+		);
+	}
 
-  const items =
-    addIdToItems(rawItems);
+	const items =
+		addIdToItems(rawItems);
 
-  // --------------------------------------------------
-  // build lines + spItems
-  // --------------------------------------------------
+	// --------------------------------------------------
+	// build lines + spItems
+	// --------------------------------------------------
 
-  const lines =
-    items.map(line => {
-      const spItems =
-        (line.spItems || []).map(
-          (sp, i) => ({
-            ...sp,
+	const lines =
+		items.map(line => {
+			const spItems =
+				(line.spItems || []).map(
+					(sp, i) => ({
+						...sp,
 
-            id:
-              `${line.id}-sp-${i + 1}`
-          })
-        );
+						id:
+							`${line.id}-sp-${i + 1}`
+					})
+				);
 
-      return {
-        ...line,
+			return {
+				...line,
 
-        spItems
-      };
-    });
+				spItems
+			};
+		});
 
-  // --------------------------------------------------
-  // primitive items
-  // IMPORTANT:
-  // preserve relationships
-  // --------------------------------------------------
+	// --------------------------------------------------
+	// primitive items
+	// --------------------------------------------------
 
-  const primitiveItems =
-    lines.map(line => ({
-      id: line.id,
+	const primitiveItems =
+		lines.map(line => ({
+			id: line.id,
 
-      showAt: line.showAt,
+			showAt: line.showAt,
 
-      spIds:
-        line.spItems.map(
-          sp => sp.id
-        )
-    }));
+			spIds:
+				line.spItems.map(
+					sp => sp.id
+				)
+		}));
 
-  // --------------------------------------------------
-  // html
-  // --------------------------------------------------
+	// --------------------------------------------------
+	// html
+	// --------------------------------------------------
 
-  const html = `
-    <section class="slide eq">
+	const html = `
+		<section class="slide eq">
 
-      <ul class="eq-lines">
+			<ul class="eq-lines">
 
-        ${lines.map(line => `
-          <li
-            id="${line.id}"
+				${lines.map(line => {
 
-            class="eq-line"
-          >
-            ${line.content}
-          </li>
-        `).join("")}
+					let content =
+						line.content;
 
-      </ul>
+					if (
+						line.name === "math"
+					) {
+						content =
+							"$$ " +
+							line.content +
+							" $$";
+					}
 
-      <div class="eq-side-panel">
+					return `
+						<li
+							id="${line.id}"
 
-        ${lines.map(line =>
-          line.spItems.map(sp => {
+							class="
+								eq-item
+								eq-${line.name}
+							"
+						>
+							${content}
+						</li>
+					`;
+				}).join("")}
 
-            if (sp.name === "image") {
-              return `
-                <div
-                  id="${sp.id}"
+			</ul>
 
-                  class="eq-explain-item hidden"
-                >
-                  <img src="${sp.content}" />
-                </div>
-              `;
-            }
+			<div class="eq-side-panel">
 
-            return `
-              <div
-                id="${sp.id}"
+				${lines.map(line =>
+					line.spItems.map(sp => {
 
-                class="eq-explain-item hidden"
-              >
-                ${sp.content}
-              </div>
-            `;
-          }).join("")
-        ).join("")}
+						if (sp.name === "image") {
+							return `
+								<div
+									id="${sp.id}"
 
-      </div>
+									class="eq-explain-item hidden"
+								>
+									<img src="${sp.content}" />
+								</div>
+							`;
+						}
 
-    </section>
-  `;
+						return `
+							<div
+								id="${sp.id}"
 
-  return {
-    html,
+								class="eq-explain-item hidden"
+							>
+								${sp.content}
+							</div>
+						`;
+					}).join("")
+				).join("")}
 
-    animation:
-      "eqHighlightOne",
+			</div>
 
-    primitiveItems
-  };
+		</section>
+	`;
+
+	return {
+		html,
+
+		animation:
+			"eqHighlightOne",
+
+		primitiveItems
+	};
 }

@@ -10,7 +10,7 @@
       "type": "titleAndSubtitle",
       "start": 0,
       "end": 10,
-      "html": "\n    <section class=\"slide titleAndSubtitle\">\n\n      <h1\n        id=\"imougtp631\"\n\n        class=\"\n          hidden\n          taleem-heading-lg\n          \n        \"\n      >\n        Taleem Slides\n      </h1>\n\n      \n            <h2\n              id=\"imougtp632\"\n\n              class=\"\n                hidden\n                taleem-heading-md\n                \n              \"\n            >\n              A calm, structured way to present ideas\n            </h2>\n          \n\n    </section>\n  ",
+      "html": "<section class=\"slide titleAndSubtitle\"><h1 id=\"imovvoq4k1\" class=\" hidden taleem-heading-lg \" > taleem Slides </h1><h2 id=\"imovvoq4k2\" class=\" hidden taleem-heading-md \" > A calm, structured way to present ideas </h2></section>",
       "groups": {
         "hidden": [
           "hidden"
@@ -21,7 +21,7 @@
           "time": 0,
           "state": {
             "hidden": [
-              "imougtp632"
+              "imovvoq4k2"
             ]
           }
         },
@@ -37,7 +37,7 @@
       "type": "titleAndPara",
       "start": 10,
       "end": 20,
-      "html": "\n    <section class=\"slide titleAndPara\">\n\n      \n            <h1\n              id=\"imougtp643\"\n\n              class=\"\n                hidden\n                taleem-heading-md\n              \"\n            >\n              What is Taleem Slides?\n            </h1>\n          \n\n      <p\n        id=\"imougtp644\"\n\n        class=\"\n          hidden\n          taleem-para\n        \"\n      >\n        Taleem Slides is a simple system that turns structured data into clear visual slides.\n      </p>\n\n    </section>\n  ",
+      "html": "<section class=\"slide titleAndPara\"><h1 id=\"imovvoq4l3\" class=\" hidden taleem-heading-md \" > What is taleem Slides? </h1><p id=\"imovvoq4l4\" class=\" hidden taleem-para \" > taleem Slides is a simple system that turns structured data into clear visual slides. </p></section>",
       "groups": {
         "hidden": [
           "hidden"
@@ -48,7 +48,7 @@
           "time": 10,
           "state": {
             "hidden": [
-              "imougtp644"
+              "imovvoq4l4"
             ]
           }
         },
@@ -64,7 +64,7 @@
       "type": "bulletList",
       "start": 20,
       "end": 30,
-      "html": "\n    <section class=\"slide bulletList\">\n      <ul>\n        \n              <li\n                id=\"imougtp645\"\n                class=\"hidden\"\n              >\n                Slides are generated from clean data\n              </li>\n            \n              <li\n                id=\"imougtp646\"\n                class=\"hidden\"\n              >\n                Nothing changes behind the scenes\n              </li>\n            \n              <li\n                id=\"imougtp647\"\n                class=\"hidden\"\n              >\n                The author controls what appears\n              </li>\n            \n              <li\n                id=\"imougtp648\"\n                class=\"hidden\"\n              >\n                The same lesson looks the same everywhere\n              </li>\n            \n      </ul>\n    </section>\n  ",
+      "html": "<section class=\"slide bulletList\"><ul><li id=\"imovvoq4l5\" class=\"hidden\" > Slides are generated from clean data </li><li id=\"imovvoq4l6\" class=\"hidden\" > Nothing changes behind the scenes </li><li id=\"imovvoq4l7\" class=\"hidden\" > The author controls what appears </li><li id=\"imovvoq4l8\" class=\"hidden\" > The same lesson looks the same everywhere </li></ul></section>",
       "groups": {
         "hidden": [
           "hidden"
@@ -75,9 +75,9 @@
           "time": 20,
           "state": {
             "hidden": [
-              "imougtp646",
-              "imougtp647",
-              "imougtp648"
+              "imovvoq4l6",
+              "imovvoq4l7",
+              "imovvoq4l8"
             ]
           }
         },
@@ -85,8 +85,8 @@
           "time": 22,
           "state": {
             "hidden": [
-              "imougtp647",
-              "imougtp648"
+              "imovvoq4l7",
+              "imovvoq4l8"
             ]
           }
         },
@@ -94,7 +94,7 @@
           "time": 24,
           "state": {
             "hidden": [
-              "imougtp648"
+              "imovvoq4l8"
             ]
           }
         },
@@ -110,7 +110,7 @@
       "type": "twoColumnText",
       "start": 30,
       "end": 40,
-      "html": "\n    <section class=\"slide twoColumnText\">\n\n      <div class=\"col left\">\n        \n        <div\n          id=\"imougtp649\"\n\n          class=\"\n            hidden\n            \n          \"\n        >\n          taleem-browser shows complete slides.\n        </div>\n      \n      </div>\n\n      <div class=\"col right\">\n        \n        <div\n          id=\"imougtp64a\"\n\n          class=\"\n            hidden\n            \n          \"\n        >\n          taleem-player reveals ideas progressively.\n        </div>\n      \n      </div>\n\n    </section>\n  ",
+      "html": "<section class=\"slide twoColumnText\"><div class=\"col left\"><div id=\"imovvoq4l9\" class=\" hidden \" > taleem-browser shows complete slides. </div></div><div class=\"col right\"><div id=\"imovvoq4la\" class=\" hidden \" > taleem-player reveals ideas progressively. </div></div></section>",
       "groups": {
         "hidden": [
           "hidden"
@@ -121,7 +121,7 @@
           "time": 30,
           "state": {
             "hidden": [
-              "imougtp64a"
+              "imovvoq4la"
             ]
           }
         },
@@ -137,7 +137,7 @@
       "type": "imageSlide",
       "start": 40,
       "end": 50,
-      "html": "\n    <section class=\"slide imageSlide\">\n\n      <img\n        id=\"imougtp64b\"\n\n        class=\"\n          hidden\n          \n        \"\n\n        src=\"/content/images/image.png\"\n\n        alt=\"\"\n      />\n\n    </section>\n  ",
+      "html": "<section class=\"slide imageSlide\"><img id=\"imovvoq4lb\" class=\" hidden \" src=\"/content/images/image.png\" alt=\"\" /></section>",
       "groups": {
         "hidden": [
           "hidden"
@@ -156,7 +156,7 @@
       "type": "imageWithTitle",
       "start": 50,
       "end": 60,
-      "html": "\n    <section class=\"slide imageWithTitle\">\n\n      \n            <h1\n              id=\"imougtp64c\"\n\n              class=\"\n                hidden\n                \n              \"\n            >\n              Visual Support Matters\n            </h1>\n          \n\n      <img\n        id=\"imougtp64d\"\n\n        class=\"\n          hidden\n          \n        \"\n\n        src=\"/content/images/image.png\"\n      />\n\n    </section>\n  ",
+      "html": "<section class=\"slide imageWithTitle\"><h1 id=\"imovvoq4lc\" class=\" hidden \" > Visual Support Matters </h1><img id=\"imovvoq4ld\" class=\" hidden \" src=\"/content/images/image.png\" /></section>",
       "groups": {
         "hidden": [
           "hidden"
@@ -167,7 +167,7 @@
           "time": 50,
           "state": {
             "hidden": [
-              "imougtp64d"
+              "imovvoq4ld"
             ]
           }
         },
@@ -183,7 +183,7 @@
       "type": "imageWithCaption",
       "start": 60,
       "end": 70,
-      "html": "\n    <figure class=\"slide imageWithCaption\">\n\n      <img\n        id=\"imougtp64e\"\n\n        class=\"\n          hidden\n          \n        \"\n\n        src=\"/content/images/image.png\"\n      />\n\n      \n            <figcaption\n              id=\"imougtp64f\"\n\n              class=\"\n                hidden\n                \n              \"\n            >\n              Images help anchor understanding\n            </figcaption>\n          \n\n    </figure>\n  ",
+      "html": "<figure class=\"slide imageWithCaption\"><img id=\"imovvoq4le\" class=\" hidden \" src=\"/content/images/image.png\" /><figcaption id=\"imovvoq4lf\" class=\" hidden \" > Images help anchor understanding </figcaption></figure>",
       "groups": {
         "hidden": [
           "hidden"
@@ -194,7 +194,7 @@
           "time": 60,
           "state": {
             "hidden": [
-              "imougtp64f"
+              "imovvoq4lf"
             ]
           }
         },
@@ -210,7 +210,7 @@
       "type": "imageLeftBulletsRight",
       "start": 70,
       "end": 80,
-      "html": "\n    <section class=\"slide imageLeftBulletsRight\">\n\n      <img\n        id=\"imougtp64g\"\n\n        class=\"\n          hidden\n          \n        \"\n\n        src=\"/content/images/image.png\"\n      />\n\n      <ul>\n\n        \n          <li\n            id=\"imougtp64h\"\n\n            class=\"\n              hidden\n              \n            \"\n          >\n            Each slide focuses on one idea\n          </li>\n        \n          <li\n            id=\"imougtp64i\"\n\n            class=\"\n              hidden\n              \n            \"\n          >\n            Points are revealed in order\n          </li>\n        \n          <li\n            id=\"imougtp64j\"\n\n            class=\"\n              hidden\n              \n            \"\n          >\n            Students follow step by step\n          </li>\n        \n\n      </ul>\n\n    </section>\n  ",
+      "html": "<section class=\"slide imageLeftBulletsRight\"><img id=\"imovvoq4lg\" class=\" hidden \" src=\"/content/images/image.png\" /><ul><li id=\"imovvoq4lh\" class=\" hidden \" > Each slide focuses on one idea </li><li id=\"imovvoq4li\" class=\" hidden \" > Points are revealed in order </li><li id=\"imovvoq4lj\" class=\" hidden \" > Students follow step by step </li></ul></section>",
       "groups": {
         "hidden": [
           "hidden"
@@ -221,9 +221,9 @@
           "time": 70,
           "state": {
             "hidden": [
-              "imougtp64h",
-              "imougtp64i",
-              "imougtp64j"
+              "imovvoq4lh",
+              "imovvoq4li",
+              "imovvoq4lj"
             ]
           }
         },
@@ -231,8 +231,8 @@
           "time": 72,
           "state": {
             "hidden": [
-              "imougtp64i",
-              "imougtp64j"
+              "imovvoq4li",
+              "imovvoq4lj"
             ]
           }
         },
@@ -240,7 +240,7 @@
           "time": 74,
           "state": {
             "hidden": [
-              "imougtp64j"
+              "imovvoq4lj"
             ]
           }
         },
@@ -256,7 +256,7 @@
       "type": "imageRightBulletsLeft",
       "start": 80,
       "end": 90,
-      "html": "\n    <section class=\"slide imageRightBulletsLeft\">\n\n      <ul>\n\n        \n          <li\n            id=\"imougtp65l\"\n\n            class=\"\n              hidden\n              \n            \"\n          >\n            Slides remain stable and predictable\n          </li>\n        \n          <li\n            id=\"imougtp65m\"\n\n            class=\"\n              hidden\n              \n            \"\n          >\n            The teacher controls the pace\n          </li>\n        \n          <li\n            id=\"imougtp65n\"\n\n            class=\"\n              hidden\n              \n            \"\n          >\n            Learning stays calm and focused\n          </li>\n        \n\n      </ul>\n\n      <img\n        id=\"imougtp65k\"\n\n        class=\"\n          hidden\n          \n        \"\n\n        src=\"/content/images/image.png\"\n      />\n\n    </section>\n  ",
+      "html": "<section class=\"slide imageRightBulletsLeft\"><ul><li id=\"imovvoq4ll\" class=\" hidden \" > Slides remain stable and predictable </li><li id=\"imovvoq4lm\" class=\" hidden \" > The teacher controls the pace </li><li id=\"imovvoq4ln\" class=\" hidden \" > Learning stays calm and focused </li></ul><img id=\"imovvoq4lk\" class=\" hidden \" src=\"/content/images/image.png\" /></section>",
       "groups": {
         "hidden": [
           "hidden"
@@ -267,9 +267,9 @@
           "time": 80,
           "state": {
             "hidden": [
-              "imougtp65l",
-              "imougtp65m",
-              "imougtp65n"
+              "imovvoq4ll",
+              "imovvoq4lm",
+              "imovvoq4ln"
             ]
           }
         },
@@ -277,8 +277,8 @@
           "time": 82,
           "state": {
             "hidden": [
-              "imougtp65m",
-              "imougtp65n"
+              "imovvoq4lm",
+              "imovvoq4ln"
             ]
           }
         },
@@ -286,7 +286,7 @@
           "time": 84,
           "state": {
             "hidden": [
-              "imougtp65n"
+              "imovvoq4ln"
             ]
           }
         },
@@ -302,7 +302,7 @@
       "type": "table",
       "start": 90,
       "end": 100,
-      "html": "\n    <section class=\"slide table\">\n\n      <table>\n        <tbody>\n\n          \n              <tr\n                id=\"imougtp65o\"\n\n                class=\"hidden \"\n              >\n                <td>Layer</td><td>Role</td>\n              </tr>\n            \n              <tr\n                id=\"imougtp65p\"\n\n                class=\"hidden \"\n              >\n                <td>taleem-core</td><td>Defines schema</td>\n              </tr>\n            \n              <tr\n                id=\"imougtp65q\"\n\n                class=\"hidden \"\n              >\n                <td>taleem-player</td><td>Playback</td>\n              </tr>\n            \n\n        </tbody>\n      </table>\n\n    </section>\n  ",
+      "html": "<section class=\"slide table\"><table><tbody><tr id=\"imovvoq4lo\" class=\"hidden \" ><td>Layer</td><td>Role</td></tr><tr id=\"imovvoq4lp\" class=\"hidden \" ><td>taleem-core</td><td>Defines schema</td></tr><tr id=\"imovvoq4lq\" class=\"hidden \" ><td>taleem-player</td><td>Playback</td></tr></tbody></table></section>",
       "groups": {
         "hidden": [
           "hidden"
@@ -313,8 +313,8 @@
           "time": 90,
           "state": {
             "hidden": [
-              "imougtp65p",
-              "imougtp65q"
+              "imovvoq4lp",
+              "imovvoq4lq"
             ]
           }
         },
@@ -322,7 +322,7 @@
           "time": 92,
           "state": {
             "hidden": [
-              "imougtp65q"
+              "imovvoq4lq"
             ]
           }
         },
@@ -338,7 +338,7 @@
       "type": "barChart",
       "start": 100,
       "end": 110,
-      "html": "\n    <section class=\"slide barChart\">\n\n      <div class=\"bar-chart\">\n\n        \n            <div\n              id=\"imougtp65r\"\n\n              class=\"bar-row hidden \"\n            >\n\n              <div class=\"bar-label\">\n                Clarity\n              </div>\n\n              <div class=\"bar-track\">\n                <div\n                  class=\"bar-fill\"\n\n                  style=\"width:100%\"\n                ></div>\n              </div>\n\n              <div class=\"bar-value\">\n                6\n              </div>\n\n            </div>\n          \n            <div\n              id=\"imougtp65s\"\n\n              class=\"bar-row hidden \"\n            >\n\n              <div class=\"bar-label\">\n                Structure\n              </div>\n\n              <div class=\"bar-track\">\n                <div\n                  class=\"bar-fill\"\n\n                  style=\"width:83.33333333333334%\"\n                ></div>\n              </div>\n\n              <div class=\"bar-value\">\n                5\n              </div>\n\n            </div>\n          \n            <div\n              id=\"imougtp65t\"\n\n              class=\"bar-row hidden \"\n            >\n\n              <div class=\"bar-label\">\n                Consistency\n              </div>\n\n              <div class=\"bar-track\">\n                <div\n                  class=\"bar-fill\"\n\n                  style=\"width:100%\"\n                ></div>\n              </div>\n\n              <div class=\"bar-value\">\n                6\n              </div>\n\n            </div>\n          \n\n      </div>\n\n    </section>\n  ",
+      "html": "<section class=\"slide barChart\"><div class=\"bar-chart\"><div id=\"imovvoq4lr\" class=\"bar-row hidden \" ><div class=\"bar-label\"> Clarity </div><div class=\"bar-track\"><div class=\"bar-fill\" style=\"width:100%\" ></div></div><div class=\"bar-value\"> 6 </div></div><div id=\"imovvoq4ls\" class=\"bar-row hidden \" ><div class=\"bar-label\"> Structure </div><div class=\"bar-track\"><div class=\"bar-fill\" style=\"width:83.33333333333334%\" ></div></div><div class=\"bar-value\"> 5 </div></div><div id=\"imovvoq4lt\" class=\"bar-row hidden \" ><div class=\"bar-label\"> Consistency </div><div class=\"bar-track\"><div class=\"bar-fill\" style=\"width:100%\" ></div></div><div class=\"bar-value\"> 6 </div></div></div></section>",
       "groups": {
         "hidden": [
           "hidden"
@@ -349,8 +349,8 @@
           "time": 100,
           "state": {
             "hidden": [
-              "imougtp65s",
-              "imougtp65t"
+              "imovvoq4ls",
+              "imovvoq4lt"
             ]
           }
         },
@@ -358,7 +358,7 @@
           "time": 102,
           "state": {
             "hidden": [
-              "imougtp65t"
+              "imovvoq4lt"
             ]
           }
         },
@@ -374,7 +374,7 @@
       "type": "progressbar",
       "start": 110,
       "end": 120,
-      "html": "\n    <section class=\"slide progressbar\">\n\n      \n          <div\n            id=\"imougtp65u\"\n\n            class=\"\n              progressbar-item\n              hidden\n              \n            \"\n          >\n\n            <div class=\"progressbar-label\">\n              Lesson Progress\n            </div>\n\n            <div class=\"progressbar-track\">\n              <div\n                class=\"progressbar-fill\"\n\n                style=\"width:60%\"\n              ></div>\n            </div>\n\n          </div>\n        \n\n    </section>\n  ",
+      "html": "<section class=\"slide progressbar\"><div id=\"imovvoq4mu\" class=\" progressbar-item hidden \" ><div class=\"progressbar-label\"> Lesson Progress </div><div class=\"progressbar-track\"><div class=\"progressbar-fill\" style=\"width:60%\" ></div></div></div></section>",
       "groups": {
         "hidden": [
           "hidden"
@@ -393,7 +393,7 @@
       "type": "quoteSlide",
       "start": 120,
       "end": 130,
-      "html": "\n    <blockquote class=\"slide quoteSlide\">\n\n      <p\n        id=\"imougtp65v\"\n\n        class=\"\n          hidden\n          \n        \"\n      >\n        Clarity makes learning easier.\n      </p>\n\n      \n            <footer\n              id=\"imougtp65w\"\n\n              class=\"\n                hidden\n                \n              \"\n            >\n              — Taleem\n            </footer>\n          \n\n    </blockquote>\n  ",
+      "html": "<blockquote class=\"slide quoteSlide\"><p id=\"imovvoq4mv\" class=\" hidden \" > Clarity makes learning easier. </p><footer id=\"imovvoq4mw\" class=\" hidden \" > — taleem </footer></blockquote>",
       "groups": {
         "hidden": [
           "hidden"
@@ -404,7 +404,7 @@
           "time": 120,
           "state": {
             "hidden": [
-              "imougtp65w"
+              "imovvoq4mw"
             ]
           }
         },
@@ -420,7 +420,7 @@
       "type": "keyIdeasSlide",
       "start": 130,
       "end": 140,
-      "html": "\n    <section class=\"slide keyIdeasSlide\">\n\n      \n        <div\n          id=\"imougtp65x\"\n\n          class=\"\n            key-idea\n            hidden\n            \n          \"\n        >\n          <div class=\"icon\">\n            🧠\n          </div>\n\n          <div class=\"label\">\n            Focus\n          </div>\n        </div>\n      \n        <div\n          id=\"imougtp65y\"\n\n          class=\"\n            key-idea\n            hidden\n            \n          \"\n        >\n          <div class=\"icon\">\n            📘\n          </div>\n\n          <div class=\"label\">\n            Clarity\n          </div>\n        </div>\n      \n        <div\n          id=\"imougtp65z\"\n\n          class=\"\n            key-idea\n            hidden\n            \n          \"\n        >\n          <div class=\"icon\">\n            🎯\n          </div>\n\n          <div class=\"label\">\n            Understanding\n          </div>\n        </div>\n      \n\n    </section>\n  ",
+      "html": "<section class=\"slide keyIdeasSlide\"><div id=\"imovvoq4mx\" class=\" key-idea hidden \" ><div class=\"icon\"> 🧠 </div><div class=\"label\"> Focus </div></div><div id=\"imovvoq4my\" class=\" key-idea hidden \" ><div class=\"icon\"> 📘 </div><div class=\"label\"> Clarity </div></div><div id=\"imovvoq4mz\" class=\" key-idea hidden \" ><div class=\"icon\"> 🎯 </div><div class=\"label\"> Understanding </div></div><div id=\"imovvoq4m10\" class=\" key-idea hidden \" ><div class=\"icon\"> 🧠 </div><div class=\"label\"> Deliberation </div></div></section>",
       "groups": {
         "hidden": [
           "hidden"
@@ -431,8 +431,9 @@
           "time": 130,
           "state": {
             "hidden": [
-              "imougtp65y",
-              "imougtp65z"
+              "imovvoq4my",
+              "imovvoq4mz",
+              "imovvoq4m10"
             ]
           }
         },
@@ -440,12 +441,21 @@
           "time": 132,
           "state": {
             "hidden": [
-              "imougtp65z"
+              "imovvoq4mz",
+              "imovvoq4m10"
             ]
           }
         },
         {
           "time": 134,
+          "state": {
+            "hidden": [
+              "imovvoq4m10"
+            ]
+          }
+        },
+        {
+          "time": 136,
           "state": {
             "hidden": []
           }
@@ -455,8 +465,8 @@
     {
       "type": "eq",
       "start": 140,
-      "end": 150,
-      "html": "\n    <section class=\"slide eq\">\n\n      <ul class=\"eq-lines\">\n\n        \n          <li\n            id=\"imougtp6510\"\n\n            class=\"eq-line\"\n          >\n            $(a+b)^2$\n          </li>\n        \n          <li\n            id=\"imougtp6511\"\n\n            class=\"eq-line\"\n          >\n            $= a^2 + 2ab + b^2$\n          </li>\n        \n\n      </ul>\n\n      <div class=\"eq-side-panel\">\n\n        \n              <div\n                id=\"imougtp6510-sp-1\"\n\n                class=\"eq-explain-item hidden\"\n              >\n                Expand the brackets.\n              </div>\n            \n                <div\n                  id=\"imougtp6511-sp-1\"\n\n                  class=\"eq-explain-item hidden\"\n                >\n                  <img src=\"box.webp\" />\n                </div>\n              \n\n      </div>\n\n    </section>\n  ",
+      "end": 155,
+      "html": "<section class=\"slide eq\"><ul class=\"eq-lines\"><li id=\"imovvoq4m11\" class=\" eq-item eq-title \" > Expansion of a Binomial </li><li id=\"imovvoq4m12\" class=\" eq-item eq-math \" > $$ (a+b)^2 $$ </li><li id=\"imovvoq4m13\" class=\" eq-item eq-math \" > $$ = (a+b)(a+b) $$ </li><li id=\"imovvoq4m14\" class=\" eq-item eq-math \" > $$ = a(a+b) + b(a+b) $$ </li><li id=\"imovvoq4m15\" class=\" eq-item eq-math \" > $$ = a^2 + ab + ab + b^2 $$ </li><li id=\"imovvoq4m16\" class=\" eq-item eq-line \" > Two middle terms are identical. </li><li id=\"imovvoq4m17\" class=\" eq-item eq-math \" > $$ = a^2 + 2ab + b^2 $$ </li><li id=\"imovvoq4m18\" class=\" eq-item eq-line \" > This identity appears frequently in algebra. </li><li id=\"imovvoq4m19\" class=\" eq-item eq-math \" > $$ (x+y)^2 = x^2 + 2xy + y^2 $$ </li><li id=\"imovvoq4m1a\" class=\" eq-item eq-line \" > Always verify expansions carefully. </li></ul><div class=\"eq-side-panel\"><div id=\"imovvoq4m11-sp-1\" class=\"eq-explain-item hidden\" > Expand the square step by step. </div><div id=\"imovvoq4m11-sp-2\" class=\"eq-explain-item hidden\" > Then combine like terms. </div><div id=\"imovvoq4m12-sp-1\" class=\"eq-explain-item hidden\" > The bracket multiplies itself. </div><div id=\"imovvoq4m13-sp-1\" class=\"eq-explain-item hidden\" ><img src=\"/content/images/box.webp\" /></div><div id=\"imovvoq4m13-sp-2\" class=\"eq-explain-item hidden\" > Area model of multiplication. </div><div id=\"imovvoq4m14-sp-1\" class=\"eq-explain-item hidden\" > Distribute both terms carefully. </div><div id=\"imovvoq4m15-sp-1\" class=\"eq-explain-item hidden\" > Every product is now visible. </div><div id=\"imovvoq4m16-sp-1\" class=\"eq-explain-item hidden\" > Both contain ab. </div><div id=\"imovvoq4m17-sp-1\" class=\"eq-explain-item hidden\" > Combine like terms. </div><div id=\"imovvoq4m18-sp-1\" class=\"eq-explain-item hidden\" > Used in simplification and factorization. </div><div id=\"imovvoq4m19-sp-1\" class=\"eq-explain-item hidden\" > The same pattern works for all variables. </div><div id=\"imovvoq4m1a-sp-1\" class=\"eq-explain-item hidden\" > Most algebra mistakes happen during expansion. </div></div></section>",
       "groups": {
         "focus": [],
         "dim": [
@@ -472,16 +482,104 @@
           "time": 140,
           "state": {
             "focus": [
-              "imougtp6510"
+              "imovvoq4m11"
             ],
             "dim": [
-              "imougtp6511"
+              "imovvoq4m12",
+              "imovvoq4m13",
+              "imovvoq4m14",
+              "imovvoq4m15",
+              "imovvoq4m16",
+              "imovvoq4m17",
+              "imovvoq4m18",
+              "imovvoq4m19",
+              "imovvoq4m1a"
             ],
             "visible": [
-              "imougtp6510-sp-1"
+              "imovvoq4m11-sp-1",
+              "imovvoq4m11-sp-2"
             ],
             "hidden": [
-              "imougtp6511-sp-1"
+              "imovvoq4m12-sp-1",
+              "imovvoq4m13-sp-1",
+              "imovvoq4m13-sp-2",
+              "imovvoq4m14-sp-1",
+              "imovvoq4m15-sp-1",
+              "imovvoq4m16-sp-1",
+              "imovvoq4m17-sp-1",
+              "imovvoq4m18-sp-1",
+              "imovvoq4m19-sp-1",
+              "imovvoq4m1a-sp-1"
+            ]
+          }
+        },
+        {
+          "time": 141,
+          "state": {
+            "focus": [
+              "imovvoq4m12"
+            ],
+            "dim": [
+              "imovvoq4m11",
+              "imovvoq4m13",
+              "imovvoq4m14",
+              "imovvoq4m15",
+              "imovvoq4m16",
+              "imovvoq4m17",
+              "imovvoq4m18",
+              "imovvoq4m19",
+              "imovvoq4m1a"
+            ],
+            "visible": [
+              "imovvoq4m12-sp-1"
+            ],
+            "hidden": [
+              "imovvoq4m11-sp-1",
+              "imovvoq4m11-sp-2",
+              "imovvoq4m13-sp-1",
+              "imovvoq4m13-sp-2",
+              "imovvoq4m14-sp-1",
+              "imovvoq4m15-sp-1",
+              "imovvoq4m16-sp-1",
+              "imovvoq4m17-sp-1",
+              "imovvoq4m18-sp-1",
+              "imovvoq4m19-sp-1",
+              "imovvoq4m1a-sp-1"
+            ]
+          }
+        },
+        {
+          "time": 142,
+          "state": {
+            "focus": [
+              "imovvoq4m13"
+            ],
+            "dim": [
+              "imovvoq4m11",
+              "imovvoq4m12",
+              "imovvoq4m14",
+              "imovvoq4m15",
+              "imovvoq4m16",
+              "imovvoq4m17",
+              "imovvoq4m18",
+              "imovvoq4m19",
+              "imovvoq4m1a"
+            ],
+            "visible": [
+              "imovvoq4m13-sp-1",
+              "imovvoq4m13-sp-2"
+            ],
+            "hidden": [
+              "imovvoq4m11-sp-1",
+              "imovvoq4m11-sp-2",
+              "imovvoq4m12-sp-1",
+              "imovvoq4m14-sp-1",
+              "imovvoq4m15-sp-1",
+              "imovvoq4m16-sp-1",
+              "imovvoq4m17-sp-1",
+              "imovvoq4m18-sp-1",
+              "imovvoq4m19-sp-1",
+              "imovvoq4m1a-sp-1"
             ]
           }
         },
@@ -489,16 +587,244 @@
           "time": 143,
           "state": {
             "focus": [
-              "imougtp6511"
+              "imovvoq4m14"
             ],
             "dim": [
-              "imougtp6510"
+              "imovvoq4m11",
+              "imovvoq4m12",
+              "imovvoq4m13",
+              "imovvoq4m15",
+              "imovvoq4m16",
+              "imovvoq4m17",
+              "imovvoq4m18",
+              "imovvoq4m19",
+              "imovvoq4m1a"
             ],
             "visible": [
-              "imougtp6511-sp-1"
+              "imovvoq4m14-sp-1"
             ],
             "hidden": [
-              "imougtp6510-sp-1"
+              "imovvoq4m11-sp-1",
+              "imovvoq4m11-sp-2",
+              "imovvoq4m12-sp-1",
+              "imovvoq4m13-sp-1",
+              "imovvoq4m13-sp-2",
+              "imovvoq4m15-sp-1",
+              "imovvoq4m16-sp-1",
+              "imovvoq4m17-sp-1",
+              "imovvoq4m18-sp-1",
+              "imovvoq4m19-sp-1",
+              "imovvoq4m1a-sp-1"
+            ]
+          }
+        },
+        {
+          "time": 144,
+          "state": {
+            "focus": [
+              "imovvoq4m15"
+            ],
+            "dim": [
+              "imovvoq4m11",
+              "imovvoq4m12",
+              "imovvoq4m13",
+              "imovvoq4m14",
+              "imovvoq4m16",
+              "imovvoq4m17",
+              "imovvoq4m18",
+              "imovvoq4m19",
+              "imovvoq4m1a"
+            ],
+            "visible": [
+              "imovvoq4m15-sp-1"
+            ],
+            "hidden": [
+              "imovvoq4m11-sp-1",
+              "imovvoq4m11-sp-2",
+              "imovvoq4m12-sp-1",
+              "imovvoq4m13-sp-1",
+              "imovvoq4m13-sp-2",
+              "imovvoq4m14-sp-1",
+              "imovvoq4m16-sp-1",
+              "imovvoq4m17-sp-1",
+              "imovvoq4m18-sp-1",
+              "imovvoq4m19-sp-1",
+              "imovvoq4m1a-sp-1"
+            ]
+          }
+        },
+        {
+          "time": 145,
+          "state": {
+            "focus": [
+              "imovvoq4m16"
+            ],
+            "dim": [
+              "imovvoq4m11",
+              "imovvoq4m12",
+              "imovvoq4m13",
+              "imovvoq4m14",
+              "imovvoq4m15",
+              "imovvoq4m17",
+              "imovvoq4m18",
+              "imovvoq4m19",
+              "imovvoq4m1a"
+            ],
+            "visible": [
+              "imovvoq4m16-sp-1"
+            ],
+            "hidden": [
+              "imovvoq4m11-sp-1",
+              "imovvoq4m11-sp-2",
+              "imovvoq4m12-sp-1",
+              "imovvoq4m13-sp-1",
+              "imovvoq4m13-sp-2",
+              "imovvoq4m14-sp-1",
+              "imovvoq4m15-sp-1",
+              "imovvoq4m17-sp-1",
+              "imovvoq4m18-sp-1",
+              "imovvoq4m19-sp-1",
+              "imovvoq4m1a-sp-1"
+            ]
+          }
+        },
+        {
+          "time": 146,
+          "state": {
+            "focus": [
+              "imovvoq4m17"
+            ],
+            "dim": [
+              "imovvoq4m11",
+              "imovvoq4m12",
+              "imovvoq4m13",
+              "imovvoq4m14",
+              "imovvoq4m15",
+              "imovvoq4m16",
+              "imovvoq4m18",
+              "imovvoq4m19",
+              "imovvoq4m1a"
+            ],
+            "visible": [
+              "imovvoq4m17-sp-1"
+            ],
+            "hidden": [
+              "imovvoq4m11-sp-1",
+              "imovvoq4m11-sp-2",
+              "imovvoq4m12-sp-1",
+              "imovvoq4m13-sp-1",
+              "imovvoq4m13-sp-2",
+              "imovvoq4m14-sp-1",
+              "imovvoq4m15-sp-1",
+              "imovvoq4m16-sp-1",
+              "imovvoq4m18-sp-1",
+              "imovvoq4m19-sp-1",
+              "imovvoq4m1a-sp-1"
+            ]
+          }
+        },
+        {
+          "time": 147,
+          "state": {
+            "focus": [
+              "imovvoq4m18"
+            ],
+            "dim": [
+              "imovvoq4m11",
+              "imovvoq4m12",
+              "imovvoq4m13",
+              "imovvoq4m14",
+              "imovvoq4m15",
+              "imovvoq4m16",
+              "imovvoq4m17",
+              "imovvoq4m19",
+              "imovvoq4m1a"
+            ],
+            "visible": [
+              "imovvoq4m18-sp-1"
+            ],
+            "hidden": [
+              "imovvoq4m11-sp-1",
+              "imovvoq4m11-sp-2",
+              "imovvoq4m12-sp-1",
+              "imovvoq4m13-sp-1",
+              "imovvoq4m13-sp-2",
+              "imovvoq4m14-sp-1",
+              "imovvoq4m15-sp-1",
+              "imovvoq4m16-sp-1",
+              "imovvoq4m17-sp-1",
+              "imovvoq4m19-sp-1",
+              "imovvoq4m1a-sp-1"
+            ]
+          }
+        },
+        {
+          "time": 148,
+          "state": {
+            "focus": [
+              "imovvoq4m19"
+            ],
+            "dim": [
+              "imovvoq4m11",
+              "imovvoq4m12",
+              "imovvoq4m13",
+              "imovvoq4m14",
+              "imovvoq4m15",
+              "imovvoq4m16",
+              "imovvoq4m17",
+              "imovvoq4m18",
+              "imovvoq4m1a"
+            ],
+            "visible": [
+              "imovvoq4m19-sp-1"
+            ],
+            "hidden": [
+              "imovvoq4m11-sp-1",
+              "imovvoq4m11-sp-2",
+              "imovvoq4m12-sp-1",
+              "imovvoq4m13-sp-1",
+              "imovvoq4m13-sp-2",
+              "imovvoq4m14-sp-1",
+              "imovvoq4m15-sp-1",
+              "imovvoq4m16-sp-1",
+              "imovvoq4m17-sp-1",
+              "imovvoq4m18-sp-1",
+              "imovvoq4m1a-sp-1"
+            ]
+          }
+        },
+        {
+          "time": 149,
+          "state": {
+            "focus": [
+              "imovvoq4m1a"
+            ],
+            "dim": [
+              "imovvoq4m11",
+              "imovvoq4m12",
+              "imovvoq4m13",
+              "imovvoq4m14",
+              "imovvoq4m15",
+              "imovvoq4m16",
+              "imovvoq4m17",
+              "imovvoq4m18",
+              "imovvoq4m19"
+            ],
+            "visible": [
+              "imovvoq4m1a-sp-1"
+            ],
+            "hidden": [
+              "imovvoq4m11-sp-1",
+              "imovvoq4m11-sp-2",
+              "imovvoq4m12-sp-1",
+              "imovvoq4m13-sp-1",
+              "imovvoq4m13-sp-2",
+              "imovvoq4m14-sp-1",
+              "imovvoq4m15-sp-1",
+              "imovvoq4m16-sp-1",
+              "imovvoq4m17-sp-1",
+              "imovvoq4m18-sp-1",
+              "imovvoq4m19-sp-1"
             ]
           }
         }
@@ -506,9 +832,9 @@
     },
     {
       "type": "fillImage",
-      "start": 150,
+      "start": 155,
       "end": 160,
-      "html": "\n    <section class=\"slide fillImage\">\n\n      <img\n        id=\"imougtp6612\"\n\n        class=\"\n          hidden\n          \n        \"\n\n        src=\"/content/images/image.png\"\n      />\n\n    </section>\n  ",
+      "html": "<section class=\"slide fillImage\"><img id=\"imovvoq4m1b\" class=\" hidden \" src=\"/content/images/image.png\" /></section>",
       "groups": {
         "hidden": [
           "hidden"
@@ -516,7 +842,7 @@
       },
       "actions": [
         {
-          "time": 150,
+          "time": 155,
           "state": {
             "hidden": []
           }
@@ -527,7 +853,7 @@
       "type": "focusList",
       "start": 160,
       "end": 170,
-      "html": "\n    <section class=\"slide focusList\">\n\n      \n            <h1\n              id=\"imougtp6613\"\n              class=\"\"\n            >\n              Step-by-step focus\n            </h1>\n          \n\n      <ul>\n        \n              <li\n                id=\"imougtp6614\"\n                class=\"\"\n              >\n                Understand the idea\n              </li>\n            \n              <li\n                id=\"imougtp6615\"\n                class=\"\"\n              >\n                Break it into parts\n              </li>\n            \n              <li\n                id=\"imougtp6616\"\n                class=\"\"\n              >\n                Verify the result\n              </li>\n            \n      </ul>\n\n    </section>\n  ",
+      "html": "<section class=\"slide focusList\"><h1 id=\"imovvoq4m1c\" class=\"\" > Step-by-step focus </h1><ul><li id=\"imovvoq4m1d\" class=\"\" > Understand the idea </li><li id=\"imovvoq4m1e\" class=\"\" > Break it into parts </li><li id=\"imovvoq4m1f\" class=\"\" > Verify the result </li></ul></section>",
       "groups": {
         "focus": [],
         "dim": [
@@ -539,12 +865,12 @@
           "time": 160,
           "state": {
             "focus": [
-              "imougtp6613"
+              "imovvoq4m1c"
             ],
             "dim": [
-              "imougtp6614",
-              "imougtp6615",
-              "imougtp6616"
+              "imovvoq4m1d",
+              "imovvoq4m1e",
+              "imovvoq4m1f"
             ]
           }
         },
@@ -552,12 +878,12 @@
           "time": 162,
           "state": {
             "focus": [
-              "imougtp6614"
+              "imovvoq4m1d"
             ],
             "dim": [
-              "imougtp6613",
-              "imougtp6615",
-              "imougtp6616"
+              "imovvoq4m1c",
+              "imovvoq4m1e",
+              "imovvoq4m1f"
             ]
           }
         },
@@ -565,12 +891,12 @@
           "time": 164,
           "state": {
             "focus": [
-              "imougtp6615"
+              "imovvoq4m1e"
             ],
             "dim": [
-              "imougtp6613",
-              "imougtp6614",
-              "imougtp6616"
+              "imovvoq4m1c",
+              "imovvoq4m1d",
+              "imovvoq4m1f"
             ]
           }
         },
@@ -578,12 +904,12 @@
           "time": 166,
           "state": {
             "focus": [
-              "imougtp6616"
+              "imovvoq4m1f"
             ],
             "dim": [
-              "imougtp6613",
-              "imougtp6614",
-              "imougtp6615"
+              "imovvoq4m1c",
+              "imovvoq4m1d",
+              "imovvoq4m1e"
             ]
           }
         }
@@ -593,7 +919,7 @@
       "type": "imageStrip",
       "start": 170,
       "end": 180,
-      "html": "\n    <section class=\"slide imageStrip\">\n\n      <div class=\"image-strip\">\n\n        \n          <div class=\"image-strip-item\">\n\n            <img\n              id=\"imougtp6617\"\n\n              class=\"\n                hidden\n                \n              \"\n\n              src=\"/content/images/box.webp\"\n            />\n\n          </div>\n        \n          <div class=\"image-strip-item\">\n\n            <img\n              id=\"imougtp6618\"\n\n              class=\"\n                hidden\n                \n              \"\n\n              src=\"/content/images/image.png\"\n            />\n\n          </div>\n        \n          <div class=\"image-strip-item\">\n\n            <img\n              id=\"imougtp6619\"\n\n              class=\"\n                hidden\n                \n              \"\n\n              src=\"/content/images/whatisforce.webp\"\n            />\n\n          </div>\n        \n\n      </div>\n\n    </section>\n  ",
+      "html": "<section class=\"slide imageStrip\"><div class=\"image-strip\"><div class=\"image-strip-item\"><img id=\"imovvoq4m1g\" class=\" hidden \" src=\"/content/images/box.webp\" /></div><div class=\"image-strip-item\"><img id=\"imovvoq4m1h\" class=\" hidden \" src=\"/content/images/image.png\" /></div><div class=\"image-strip-item\"><img id=\"imovvoq4m1i\" class=\" hidden \" src=\"/content/images/whatisforce.webp\" /></div></div></section>",
       "groups": {
         "hidden": [
           "hidden"
@@ -604,8 +930,8 @@
           "time": 170,
           "state": {
             "hidden": [
-              "imougtp6618",
-              "imougtp6619"
+              "imovvoq4m1h",
+              "imovvoq4m1i"
             ]
           }
         },
@@ -613,7 +939,7 @@
           "time": 172,
           "state": {
             "hidden": [
-              "imougtp6619"
+              "imovvoq4m1i"
             ]
           }
         },
@@ -629,7 +955,7 @@
       "type": "imageGrid",
       "start": 180,
       "end": 190,
-      "html": "\n    <section class=\"slide imageGrid\">\n\n      <div class=\"image-grid\">\n\n        \n          <div class=\"image-grid-item\">\n\n            <img\n              id=\"imougtp661a\"\n\n              class=\"\n                hidden\n                \n              \"\n\n              src=\"/content/images/box.webp\"\n            />\n\n          </div>\n        \n          <div class=\"image-grid-item\">\n\n            <img\n              id=\"imougtp661b\"\n\n              class=\"\n                hidden\n                \n              \"\n\n              src=\"/content/images/image.png\"\n            />\n\n          </div>\n        \n          <div class=\"image-grid-item\">\n\n            <img\n              id=\"imougtp661c\"\n\n              class=\"\n                hidden\n                \n              \"\n\n              src=\"/content/images/whatisforce.webp\"\n            />\n\n          </div>\n        \n          <div class=\"image-grid-item\">\n\n            <img\n              id=\"imougtp661d\"\n\n              class=\"\n                hidden\n                \n              \"\n\n              src=\"/content/images/box.webp\"\n            />\n\n          </div>\n        \n\n      </div>\n\n    </section>\n  ",
+      "html": "<section class=\"slide imageGrid\"><div class=\"image-grid\"><div class=\"image-grid-item\"><img id=\"imovvoq4m1j\" class=\" hidden \" src=\"/content/images/box.webp\" /></div><div class=\"image-grid-item\"><img id=\"imovvoq4m1k\" class=\" hidden \" src=\"/content/images/image.png\" /></div><div class=\"image-grid-item\"><img id=\"imovvoq4m1l\" class=\" hidden \" src=\"/content/images/whatisforce.webp\" /></div><div class=\"image-grid-item\"><img id=\"imovvoq4m1m\" class=\" hidden \" src=\"/content/images/box.webp\" /></div></div></section>",
       "groups": {
         "hidden": [
           "hidden"
@@ -640,9 +966,9 @@
           "time": 180,
           "state": {
             "hidden": [
-              "imougtp661b",
-              "imougtp661c",
-              "imougtp661d"
+              "imovvoq4m1k",
+              "imovvoq4m1l",
+              "imovvoq4m1m"
             ]
           }
         },
@@ -650,8 +976,8 @@
           "time": 182,
           "state": {
             "hidden": [
-              "imougtp661c",
-              "imougtp661d"
+              "imovvoq4m1l",
+              "imovvoq4m1m"
             ]
           }
         },
@@ -659,7 +985,7 @@
           "time": 184,
           "state": {
             "hidden": [
-              "imougtp661d"
+              "imovvoq4m1m"
             ]
           }
         },
@@ -675,7 +1001,7 @@
       "type": "skeleton",
       "start": 190,
       "end": 200,
-      "html": "\n    <section class=\"slide skeleton\">\n\n      <div class=\"skeleton-body\">\n        \n        <h1\n          id=\"imougtp661e\"\n          class=\"hidden \"\n        >\n          Understanding Force\n        </h1>\n      \n        <div\n          id=\"imougtp661f\"\n          class=\"skeleton-image hidden \"\n        >\n          <img src=\"/content/images/whatisforce.webp\" />\n        </div>\n      \n        <p\n          id=\"imougtp661g\"\n          class=\"hidden \"\n        >\n          Force is a push or pull.\n        </p>\n      \n      </div>\n\n    </section>\n  ",
+      "html": "<section class=\"slide skeleton\"><div class=\"skeleton-body\"><h1 id=\"imovvoq4n1n\" class=\"hidden \" > Understanding Force </h1><div id=\"imovvoq4n1o\" class=\"skeleton-image hidden \" ><img src=\"/content/images/whatisforce.webp\" /></div><p id=\"imovvoq4n1p\" class=\"hidden \" > Force is a push or pull. </p></div></section>",
       "groups": {
         "visible": [],
         "hidden": [
@@ -687,11 +1013,11 @@
           "time": 190,
           "state": {
             "visible": [
-              "imougtp661e"
+              "imovvoq4n1n"
             ],
             "hidden": [
-              "imougtp661f",
-              "imougtp661g"
+              "imovvoq4n1o",
+              "imovvoq4n1p"
             ]
           }
         },
@@ -699,11 +1025,11 @@
           "time": 192,
           "state": {
             "visible": [
-              "imougtp661f"
+              "imovvoq4n1o"
             ],
             "hidden": [
-              "imougtp661e",
-              "imougtp661g"
+              "imovvoq4n1n",
+              "imovvoq4n1p"
             ]
           }
         },
@@ -711,11 +1037,11 @@
           "time": 194,
           "state": {
             "visible": [
-              "imougtp661g"
+              "imovvoq4n1p"
             ],
             "hidden": [
-              "imougtp661e",
-              "imougtp661f"
+              "imovvoq4n1n",
+              "imovvoq4n1o"
             ]
           }
         }
@@ -725,7 +1051,7 @@
       "type": "textGrid",
       "start": 200,
       "end": 210,
-      "html": "\n    <section class=\"slide textGrid\">\n\n      <div class=\"text-grid\">\n\n        \n          <div\n            id=\"imougtp661h\"\n\n            class=\"\n              text-grid-item\n              hidden\n              \n            \"\n          >\n            Clear structure improves understanding\n          </div>\n        \n          <div\n            id=\"imougtp661i\"\n\n            class=\"\n              text-grid-item\n              hidden\n              \n            \"\n          >\n            Each idea should be isolated\n          </div>\n        \n          <div\n            id=\"imougtp661j\"\n\n            class=\"\n              text-grid-item\n              hidden\n              \n            \"\n          >\n            Visual layout reduces confusion\n          </div>\n        \n          <div\n            id=\"imougtp661k\"\n\n            class=\"\n              text-grid-item\n              hidden\n              \n            \"\n          >\n            Consistency improves learning\n          </div>\n        \n\n      </div>\n\n    </section>\n  ",
+      "html": "<section class=\"slide textGrid\"><div class=\"text-grid\"><div id=\"imovvoq4n1q\" class=\" text-grid-item hidden \" > Clear structure improves understanding </div><div id=\"imovvoq4n1r\" class=\" text-grid-item hidden \" > Each idea should be isolated </div><div id=\"imovvoq4n1s\" class=\" text-grid-item hidden \" > Visual layout reduces confusion </div><div id=\"imovvoq4n1t\" class=\" text-grid-item hidden \" > Consistency improves learning </div></div></section>",
       "groups": {
         "hidden": [
           "hidden"
@@ -736,9 +1062,9 @@
           "time": 200,
           "state": {
             "hidden": [
-              "imougtp661i",
-              "imougtp661j",
-              "imougtp661k"
+              "imovvoq4n1r",
+              "imovvoq4n1s",
+              "imovvoq4n1t"
             ]
           }
         },
@@ -746,8 +1072,8 @@
           "time": 202,
           "state": {
             "hidden": [
-              "imougtp661j",
-              "imougtp661k"
+              "imovvoq4n1s",
+              "imovvoq4n1t"
             ]
           }
         },
@@ -755,7 +1081,7 @@
           "time": 204,
           "state": {
             "hidden": [
-              "imougtp661k"
+              "imovvoq4n1t"
             ]
           }
         },
@@ -768,4 +1094,5 @@
       ]
     }
   ]
+  
 }

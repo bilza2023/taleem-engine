@@ -1,6 +1,4 @@
 
-import Builder from "./dsl/index.js";
+import Taleem from "./dsl/Taleem.js";
 
-const TaleemEngine = new Builder();
-
-export default TaleemEngine;
+export {Taleem }

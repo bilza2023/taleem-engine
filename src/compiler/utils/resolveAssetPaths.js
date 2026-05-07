@@ -29,7 +29,8 @@ export function resolveAssetPaths(deck, IMG_BASE) {
       // -----------------------------
       if (Array.isArray(item.spItems)) {
         item.spItems.forEach(sp => {
-          if (sp.type === "spImage" && typeof sp.content === "string") {
+          // if (sp.type === "spImage" && typeof sp.content === "string") {
+          if (sp.name === "image" && typeof sp.content === "string") {
             sp.content = IMG_BASE + sp.content.split("/").pop();
           }
         });

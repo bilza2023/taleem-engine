@@ -2,24 +2,25 @@
 
 import fs from "fs";
 
-import TaleemEngine from "../src/index.js";
+import {Taleem} from "../src/index.js";
 
+const taleem = new Taleem();
 // --------------------------------------------------
 
-TaleemEngine.metaData.name =
+taleem.metaData.name =
   "Golden DSL";
 
-TaleemEngine.metaData.base =
+taleem.metaData.base =
   "/content/images/";
 
 // --------------------------------------------------
 // titleAndSubtitle
 // --------------------------------------------------
 
-TaleemEngine.at(0)
+taleem.at(0)
   .titleAndSubtitle()
   .title(
-    "Taleem Slides",
+    "taleem Slides",
     0
   )
   .subtitle(
@@ -31,14 +32,14 @@ TaleemEngine.at(0)
 // titleAndPara
 // --------------------------------------------------
 
-TaleemEngine.at(10)
+taleem.at(10)
   .titleAndPara()
   .title(
-    "What is Taleem Slides?",
+    "What is taleem Slides?",
     10
   )
   .para(
-    "Taleem Slides is a simple system that turns structured data into clear visual slides.",
+    "taleem Slides is a simple system that turns structured data into clear visual slides.",
     13
   );
 
@@ -46,7 +47,7 @@ TaleemEngine.at(10)
 // bulletList
 // --------------------------------------------------
 
-TaleemEngine.at(20)
+taleem.at(20)
   .bulletList()
   .bullet(
     "Slides are generated from clean data",
@@ -69,7 +70,7 @@ TaleemEngine.at(20)
 // twoColumnText
 // --------------------------------------------------
 
-TaleemEngine.at(30)
+taleem.at(30)
   .twoColumnText()
   .leftText(
     "taleem-browser shows complete slides.",
@@ -84,7 +85,7 @@ TaleemEngine.at(30)
 // imageSlide
 // --------------------------------------------------
 
-TaleemEngine.at(40)
+taleem.at(40)
   .imageSlide()
   .image(
     "image.png",
@@ -95,7 +96,7 @@ TaleemEngine.at(40)
 // imageWithTitle
 // --------------------------------------------------
 
-TaleemEngine.at(50)
+taleem.at(50)
   .imageWithTitle()
   .title(
     "Visual Support Matters",
@@ -110,7 +111,7 @@ TaleemEngine.at(50)
 // imageWithCaption
 // --------------------------------------------------
 
-TaleemEngine.at(60)
+taleem.at(60)
   .imageWithCaption()
   .image(
     "image.png",
@@ -125,7 +126,7 @@ TaleemEngine.at(60)
 // imageLeftBulletsRight
 // --------------------------------------------------
 
-TaleemEngine.at(70)
+taleem.at(70)
   .imageLeftBulletsRight()
   .image(
     "image.png",
@@ -148,7 +149,7 @@ TaleemEngine.at(70)
 // imageRightBulletsLeft
 // --------------------------------------------------
 
-TaleemEngine.at(80)
+taleem.at(80)
   .imageRightBulletsLeft()
   .image(
     "image.png",
@@ -171,7 +172,7 @@ TaleemEngine.at(80)
 // table
 // --------------------------------------------------
 
-TaleemEngine.at(90)
+taleem.at(90)
   .table()
   .row(
     "Layer , Role",
@@ -190,7 +191,7 @@ TaleemEngine.at(90)
 // barChart
 // --------------------------------------------------
 
-TaleemEngine.at(100)
+taleem.at(100)
   .barChart()
   .bar(
     "Clarity",
@@ -212,7 +213,7 @@ TaleemEngine.at(100)
 // progressbar
 // --------------------------------------------------
 
-TaleemEngine.at(110)
+taleem.at(110)
   .progressbar()
   .bar(
     "Lesson Progress",
@@ -224,14 +225,14 @@ TaleemEngine.at(110)
 // quoteSlide
 // --------------------------------------------------
 
-TaleemEngine.at(120)
+taleem.at(120)
   .quoteSlide()
   .quote(
     "Clarity makes learning easier.",
     120
   )
   .author(
-    "— Taleem",
+    "— taleem",
     123
   );
 
@@ -239,7 +240,7 @@ TaleemEngine.at(120)
 // keyIdeasSlide
 // --------------------------------------------------
 
-TaleemEngine.at(130)
+taleem.at(130)
   .keyIdeasSlide()
   .card(
     "🧠",
@@ -255,59 +256,116 @@ TaleemEngine.at(130)
     "🎯",
     "Understanding",
     134
-  );
+  )
+  .card(
+    "🧠",
+    "Deliberation",
+    136
+  )
+  ;
 
-// --------------------------------------------------
+  // --------------------------------------------------
 // eq
 // --------------------------------------------------
 
-TaleemEngine.at(140)
-  .eq()
+taleem.at(140)
+.eq()
 
-  .line(
-    "$(a+b)^2$",
-    140,
+.title("Expansion of a Binomial", 140, [
+  {
+    name: "text",
+    content: "Expand the square step by step."
+  },
 
-    [
-      {
-        name: "text",
+  {
+    name: "text",
+    content: "Then combine like terms."
+  }
+])
 
-        content:
-          "Expand the brackets."
-      }
-    ]
-  )
+.math("(a+b)^2", 141, [
+  {
+    name: "text",
+    content: "The bracket multiplies itself."
+  }
+])
 
-  .line(
-    "$= a^2 + 2ab + b^2$",
-    143,
+.math("= (a+b)(a+b)", 142, [
+  {
+    name: "image",
+    content: "box.webp"
+  },
 
-    [
-      {
-        name: "image",
+  {
+    name: "text",
+    content: "Area model of multiplication."
+  }
+])
 
-        content:
-          "box.webp"
-      }
-    ]
-  );
+.math("= a(a+b) + b(a+b)", 143, [
+  {
+    name: "text",
+    content: "Distribute both terms carefully."
+  }
+])
 
+.math("= a^2 + ab + ab + b^2", 144, [
+  {
+    name: "text",
+    content: "Every product is now visible."
+  }
+])
+
+.line("Two middle terms are identical.", 145, [
+  {
+    name: "text",
+    content: "Both contain ab."
+  }
+])
+
+.math("= a^2 + 2ab + b^2", 146, [
+  {
+    name: "text",
+    content: "Combine like terms."
+  }
+])
+
+.line("This identity appears frequently in algebra.", 147, [
+  {
+    name: "text",
+    content: "Used in simplification and factorization."
+  }
+])
+
+.math("(x+y)^2 = x^2 + 2xy + y^2", 148, [
+  {
+    name: "text",
+    content: "The same pattern works for all variables."
+  }
+])
+
+.line("Always verify expansions carefully.", 149, [
+  {
+    name: "text",
+    content: "Most algebra mistakes happen during expansion."
+  }
+]);
 // --------------------------------------------------
 // fillImage
 // --------------------------------------------------
 
-TaleemEngine.at(150)
+taleem.at(155)
   .fillImage()
   .image(
     "image.png",
-    150
+    155
   );
 
 // --------------------------------------------------
 // focusList
 // --------------------------------------------------
 
-TaleemEngine.at(160)
+taleem.at(160)
   .focusList()
   .heading(
     "Step-by-step focus",
@@ -330,7 +388,7 @@ TaleemEngine.at(160)
 // imageStrip
 // --------------------------------------------------
 
-TaleemEngine.at(170)
+taleem.at(170)
   .imageStrip()
   .image(
     "box.webp",
@@ -349,7 +407,7 @@ TaleemEngine.at(170)
 // imageGrid
 // --------------------------------------------------
 
-TaleemEngine.at(180)
+taleem.at(180)
   .imageGrid()
   .image(
     "box.webp",
@@ -372,7 +430,7 @@ TaleemEngine.at(180)
 // skeleton
 // --------------------------------------------------
 
-TaleemEngine.at(190)
+taleem.at(190)
   .skeleton()
   .title(
     "Understanding Force",
@@ -391,7 +449,7 @@ TaleemEngine.at(190)
 // textGrid
 // --------------------------------------------------
 
-TaleemEngine.at(200)
+taleem.at(200)
   .textGrid()
   .text(
     "Clear structure improves understanding",
@@ -412,12 +470,12 @@ TaleemEngine.at(200)
 
 // --------------------------------------------------
 
-TaleemEngine.end(210);
+taleem.end(210);
 
 // --------------------------------------------------
 
 const presentation =
-  TaleemEngine.build();
+  taleem.compile();
 
 // --------------------------------------------------
 
