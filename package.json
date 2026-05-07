@@ -3,18 +3,23 @@
   "version": "1.0.0",
   "description": "Deterministic educational presentation engine",
   "type": "module",
+
   "main": "./src/index.js",
+
   "exports": {
     ".": "./src/index.js"
   },
+
   "files": [
     "src",
     "README.md"
   ],
+
   "scripts": {
-   "test": "vitest",
+    "test": "vitest",
     "example": "node examples/golden-dsl.js"
   },
+
   "keywords": [
     "presentation",
     "slides",
@@ -24,9 +29,23 @@
     "learning",
     "taleem"
   ],
+
   "author": "Bilal Tariq",
+
   "license": "MIT",
-  "dependencies": {
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bilza2023/taleem-engine.git"
+  },
+
+  "bugs": {
+    "url": "https://github.com/bilza2023/taleem-engine/issues"
+  },
+
+  "homepage": "https://github.com/bilza2023/taleem-engine#readme",
+
+  "devDependencies": {
     "vitest": "^4.1.5"
   }
 }

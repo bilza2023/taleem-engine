@@ -3,6 +3,11 @@
 
 `taleem-engine` is a deterministic educational presentation engine.
 
+API documentation:
+https://bilza2023.github.io/taleem-engine/
+
+---
+# Documentation
 It provides a complete authoring pipeline:
 
 ```txt

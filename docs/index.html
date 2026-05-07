@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+
+  <title>Taleem DSL API</title>
+
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.min.css"
+  />
+
+  <style>
+    body {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    pre {
+      overflow-x: auto;
+    }
+
+    code {
+      font-size: 14px;
+    }
+
+    h1 {
+      margin-top: 70px;
+    }
+
+    h2 {
+      margin-top: 50px;
+    }
+
+    .intro {
+      margin-bottom: 50px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <section class="intro">
+
+    <h1>Taleem DSL API</h1>
+
+    <p>
+      This document is the canonical API reference for
+      <code>taleem-engine</code>.
+    </p>
+
+    <p>
+      All examples are directly copy-pasteable.
+    </p>
+
+    <p>
+      The API is intentionally small, deterministic,
+      and educational-first.
+    </p>
+
+  </section>
+
+  <h2>Installation</h2>
+
+  <pre><code>npm install taleem-engine</code></pre>
+
+  <h2>Create Presentation</h2>
+
+  <pre><code>import { Taleem } from "taleem-engine";
+
+const taleem = new Taleem();</code></pre>
+
+  <h2>Presentation Metadata</h2>
+
+  <pre><code>taleem.metaData.name = "My Presentation";
+
+taleem.metaData.base = "/content/images/";</code></pre>
+
+  <h2>titleAndSubtitle</h2>
+
+  <pre><code>taleem.at(0).titleAndSubtitle()
+
+  .title("taleem Slides", 0)
+
+  .subtitle("A calm, structured way to present ideas", 3);</code></pre>
+
+  <h2>titleAndPara</h2>
+
+  <pre><code>taleem.at(10).titleAndPara()
+
+  .title("What is taleem Slides?", 10)
+
+  .para(
+    "taleem Slides is a simple system that turns structured data into clear visual slides.",
+    13
+  );</code></pre>
+
+  <h2>bulletList</h2>
+
+  <pre><code>taleem.at(20).bulletList()
+
+  .bullet("Slides are generated from clean data", 20)
+
+  .bullet("Nothing changes behind the scenes", 22)
+
+  .bullet("The author controls what appears", 24)
+
+  .bullet("The same lesson looks the same everywhere", 26);</code></pre>
+
+  <h2>twoColumnText</h2>
+
+  <pre><code>taleem.at(30).twoColumnText()
+
+  .leftText("taleem-browser shows complete slides.", 30)
+
+  .rightText("taleem-player reveals ideas progressively.", 34);</code></pre>
+
+  <h2>imageSlide</h2>
+
+  <pre><code>taleem.at(40).imageSlide()
+
+  .image("image.png", 40);</code></pre>
+
+  <h2>imageWithTitle</h2>
+
+  <pre><code>taleem.at(50).imageWithTitle()
+
+  .title("Visual Support Matters", 50)
+
+  .image("image.png", 53);</code></pre>
+
+  <h2>imageWithCaption</h2>
+
+  <pre><code>taleem.at(60).imageWithCaption()
+
+  .image("image.png", 60)
+
+  .caption("Images help anchor understanding", 63);</code></pre>
+
+  <h2>imageLeftBulletsRight</h2>
+
+  <pre><code>taleem.at(70).imageLeftBulletsRight()
+
+  .image("image.png", 70)
+
+  .bullet("Each slide focuses on one idea", 72)
+
+  .bullet("Points are revealed in order", 74)
+
+  .bullet("Students follow step by step", 76);</code></pre>
+
+  <h2>imageRightBulletsLeft</h2>
+
+  <pre><code>taleem.at(80).imageRightBulletsLeft()
+
+  .image("image.png", 80)
+
+  .bullet("Slides remain stable and predictable", 82)
+
+  .bullet("The teacher controls the pace", 84)
+
+  .bullet("Learning stays calm and focused", 86);</code></pre>
+
+  <h2>table</h2>
+
+  <pre><code>taleem.at(90).table()
+
+  .row("Layer , Role", 90)
+
+  .row("taleem-core , Defines schema", 92)
+
+  .row("taleem-player , Playback", 94);</code></pre>
+
+  <h2>barChart</h2>
+
+  <pre><code>taleem.at(100).barChart()
+
+  .bar("Clarity", 6, 100)
+
+  .bar("Structure", 5, 102)
+
+  .bar("Consistency", 6, 104);</code></pre>
+
+  <h2>progressbar</h2>
+
+  <pre><code>taleem.at(110).progressbar()
+
+  .bar("Lesson Progress", 60, 110);</code></pre>
+
+  <h2>quoteSlide</h2>
+
+  <pre><code>taleem.at(120).quoteSlide()
+
+  .quote("Clarity makes learning easier.", 120)
+
+  .author("— taleem", 123);</code></pre>
+
+  <h2>keyIdeasSlide</h2>
+
+  <pre><code>taleem.at(130).keyIdeasSlide()
+
+  .card("🧠", "Focus", 130)
+
+  .card("📘", "Clarity", 132)
+
+  .card("🎯", "Understanding", 134)
+
+  .card("🧠", "Deliberation", 136);</code></pre>
+
+  <h2>eq</h2>
+
+  <pre><code>taleem.at(140).eq()
+
+  .title("Expansion of a Binomial", 140, [
+    {
+      name: "text",
+      content: "Expand the square step by step."
+    }
+  ])
+
+  .math("(a+b)^2", 141, [
+    {
+      name: "text",
+      content: "The bracket multiplies itself."
+    }
+  ]);</code></pre>
+
+  <h2>fillImage</h2>
+
+  <pre><code>taleem.at(155).fillImage()
+
+  .image("image.png", 155);</code></pre>
+
+  <h2>focusList</h2>
+
+  <pre><code>taleem.at(160).focusList()
+
+  .heading("Step-by-step focus", 160)
+
+  .bullet("Understand the idea", 162)
+
+  .bullet("Break it into parts", 164)
+
+  .bullet("Verify the result", 166);</code></pre>
+
+  <h2>imageStrip</h2>
+
+  <pre><code>taleem.at(170).imageStrip()
+
+  .image("box.webp", 170)
+
+  .image("image.png", 172)
+
+  .image("whatisforce.webp", 174);</code></pre>
+
+  <h2>imageGrid</h2>
+
+  <pre><code>taleem.at(180).imageGrid()
+
+  .image("box.webp", 180)
+
+  .image("image.png", 182)
+
+  .image("whatisforce.webp", 184)
+
+  .image("box.webp", 186);</code></pre>
+
+  <h2>skeleton</h2>
+
+  <pre><code>taleem.at(190).skeleton()
+
+  .title("Understanding Force", 190)
+
+  .image("whatisforce.webp", 192)
+
+  .para("Force is a push or pull.", 194);</code></pre>
+
+  <h2>textGrid</h2>
+
+  <pre><code>taleem.at(200).textGrid()
+
+  .text("Clear structure improves understanding", 200)
+
+  .text("Each idea should be isolated", 202)
+
+  .text("Visual layout reduces confusion", 204)
+
+  .text("Consistency improves learning", 206);</code></pre>
+
+  <h2>End Presentation</h2>
+
+  <pre><code>taleem.end(210);</code></pre>
+
+  <h2>Compile Presentation</h2>
+
+  <pre><code>const presentation = taleem.compile();</code></pre>
+
+</body>
+
+</html>
