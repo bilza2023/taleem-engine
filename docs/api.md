@@ -22,19 +22,8 @@ npm install taleem-engine
 ```js
 import { Taleem } from "taleem-engine";
 
-const taleem = new Taleem();
+const taleem = new Taleem("presentation-name");
 ```
-
----
-
-# Presentation Metadata
-
-```js
-taleem.metaData.name = "My Presentation";
-
-taleem.metaData.base = "/content/images/";
-```
-
 ---
 
 # titleAndSubtitle

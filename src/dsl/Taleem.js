@@ -1,73 +1,48 @@
 // /src/dsl/index.js
 
 import TimelineContext from "./TimelineContext.js";
-
 import { TaleemCompiler } from "../compiler/TaleemCompiler.js";
-
 import BulletListBuilder from "./slides/BulletListBuilder.js";
-
 import SkeletonSlideBuilder from "./slides/SkeletonSlideBuilder.js";
-
 import FocusListBuilder from "./slides/FocusListBuilder.js";
-
 import Eq from "./slides/Eq.js";
-
 import Table from "./slides/Table.js";
-
 import BarChart from "./slides/BarChart.js";
-
 import Progressbar from "./slides/Progressbar.js";
-
 import TitleAndSubtitle from "./slides/TitleAndSubtitle.js";
-
 import TitleAndPara from "./slides/TitleAndPara.js";
-
 import TwoColumnText from "./slides/TwoColumnText.js";
-
 import ImageSlide from "./slides/ImageSlide.js";
-
 import ImageWithTitle from "./slides/ImageWithTitle.js";
-
 import ImageWithCaption from "./slides/ImageWithCaption.js";
-
 import ImageLeftBulletsRight from "./slides/ImageLeftBulletsRight.js";
-
 import ImageRightBulletsLeft from "./slides/ImageRightBulletsLeft.js";
-
 import QuoteSlide from "./slides/QuoteSlide.js";
-
 import KeyIdeasSlide from "./slides/KeyIdeasSlide.js";
-
 import FillImage from "./slides/FillImage.js";
-
 import ImageStrip from "./slides/ImageStrip.js";
-
 import ImageGrid from "./slides/ImageGrid.js";
-
 import TextGrid from "./slides/TextGrid.js";
-
 /////////////////////////////////////////////////////
 
 export default class Taleem {
-  constructor() {
-    this.metaData = {
-      name: "Untitled Deck",
+  
 
-      base: ""
-    };
+constructor(name = "Untitled Deck") {
+  this.name =  name;
 
-    this.backgroundData = {
-      backgroundColor: "#111111",
+  this.background = {
+    backgroundColor: "#111111",
 
-      backgroundImage: null,
+    backgroundImage: null,
 
-      backgroundImageOpacity: 0.3
-    };
+    backgroundImageOpacity: 0.3
+  };
 
-    this.deck = [];
+  this.deck = [];
 
-    this.presentationEnd = null;
-  }
+  this.presentationEnd = null;
+}
 
   at(time) {
     return new TimelineContext(
@@ -390,11 +365,6 @@ export default class Taleem {
       this
     );
   }
-
-  compile() {
-    return TaleemCompiler(this, {
-      assetBase:
-        this.metaData.base
-    });
-  }
+/////////////==========> compiler
+  compile() {return TaleemCompiler(this);}
 }

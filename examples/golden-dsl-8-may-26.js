@@ -4,15 +4,14 @@ import fs from "fs";
 
 import {Taleem} from "../src/index.js";
 
-const taleem = new Taleem();
-// --------------------------------------------------
+const taleem = new Taleem("Golden DSL");
 
-taleem.metaData.name =
-  "Golden DSL";
 
-taleem.metaData.base =
-  "/content/images/";
-
+taleem.background = {
+  backgroundColor: "#05070c",
+  backgroundImage: "bg.webp",
+  backgroundImageOpacity: 0.22
+};
 // --------------------------------------------------
 // titleAndSubtitle
 // --------------------------------------------------

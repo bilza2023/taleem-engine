@@ -1,50 +1,15 @@
 // /src/compiler/index.js
 
+
 import { compileTimings } from "./utils/compileTimings.js";
-
-import { resolveAssetPaths } from "./utils/resolveAssetPaths.js";
-
 import { templates } from "./templates/index.js";
-
 import { runPrimitive } from "./animation-primtives/runPrimitive.js";
 
-export function TaleemCompiler(
-  builder,
-  options = {}
-) {
-  const {
-    assetBase =
-      builder.metaData.base || ""
-  } = options;
-
+export function TaleemCompiler(builder) {
   // --------------------------------------------------
   // timings
   // --------------------------------------------------
-
-  compileTimings(
-    builder.deck,
-    builder.presentationEnd
-  );
-
-  // --------------------------------------------------
-  // preprocess DSL slides
-  // IMPORTANT:
-  // resolve BEFORE html compilation
-  // --------------------------------------------------
-
-  if (assetBase) {
-    resolveAssetPaths(
-      {
-        background:
-          builder.backgroundData,
-
-        deck: builder.deck
-      },
-
-      assetBase
-    );
-  }
-
+  compileTimings(builder.deck, builder.presentationEnd );
   // --------------------------------------------------
   // compile slides
   // --------------------------------------------------
@@ -109,14 +74,14 @@ export function TaleemCompiler(
   // --------------------------------------------------
   // final presentation
   // --------------------------------------------------
-
   return {
-    name:
-      builder.metaData.name,
-
+    name: builder.name,
+  
     background:
-      builder.backgroundData,
-
-    deck: compiledDeck
+      builder.background,
+  
+    deck:
+      compiledDeck
   };
+
 }

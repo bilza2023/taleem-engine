@@ -1,16 +1,16 @@
 {
   "name": "Golden DSL",
   "background": {
-    "backgroundColor": "#111111",
-    "backgroundImage": null,
-    "backgroundImageOpacity": 0.3
+    "backgroundColor": "#05070c",
+    "backgroundImage": "bg.webp",
+    "backgroundImageOpacity": 0.22
   },
   "deck": [
     {
       "type": "titleAndSubtitle",
       "start": 0,
       "end": 10,
-      "html": "<section class=\"slide titleAndSubtitle\"><h1 id=\"imovvoq4k1\" class=\" hidden taleem-heading-lg \" > taleem Slides </h1><h2 id=\"imovvoq4k2\" class=\" hidden taleem-heading-md \" > A calm, structured way to present ideas </h2></section>",
+      "html": "<section class=\"slide titleAndSubtitle\"><h1 id=\"imox71zhc1\" class=\" hidden taleem-heading-lg \" > taleem Slides </h1><h2 id=\"imox71zhc2\" class=\" hidden taleem-heading-md \" > A calm, structured way to present ideas </h2></section>",
       "groups": {
         "hidden": [
           "hidden"
@@ -21,7 +21,7 @@
           "time": 0,
           "state": {
             "hidden": [
-              "imovvoq4k2"
+              "imox71zhc2"
             ]
           }
         },
@@ -37,7 +37,7 @@
       "type": "titleAndPara",
       "start": 10,
       "end": 20,
-      "html": "<section class=\"slide titleAndPara\"><h1 id=\"imovvoq4l3\" class=\" hidden taleem-heading-md \" > What is taleem Slides? </h1><p id=\"imovvoq4l4\" class=\" hidden taleem-para \" > taleem Slides is a simple system that turns structured data into clear visual slides. </p></section>",
+      "html": "<section class=\"slide titleAndPara\"><h1 id=\"imox71zhc3\" class=\" hidden taleem-heading-md \" > What is taleem Slides? </h1><p id=\"imox71zhc4\" class=\" hidden taleem-para \" > taleem Slides is a simple system that turns structured data into clear visual slides. </p></section>",
       "groups": {
         "hidden": [
           "hidden"
@@ -48,7 +48,7 @@
           "time": 10,
           "state": {
             "hidden": [
-              "imovvoq4l4"
+              "imox71zhc4"
             ]
           }
         },
@@ -64,7 +64,7 @@
       "type": "bulletList",
       "start": 20,
       "end": 30,
-      "html": "<section class=\"slide bulletList\"><ul><li id=\"imovvoq4l5\" class=\"hidden\" > Slides are generated from clean data </li><li id=\"imovvoq4l6\" class=\"hidden\" > Nothing changes behind the scenes </li><li id=\"imovvoq4l7\" class=\"hidden\" > The author controls what appears </li><li id=\"imovvoq4l8\" class=\"hidden\" > The same lesson looks the same everywhere </li></ul></section>",
+      "html": "<section class=\"slide bulletList\"><ul><li id=\"imox71zhd5\" class=\"hidden\" > Slides are generated from clean data </li><li id=\"imox71zhd6\" class=\"hidden\" > Nothing changes behind the scenes </li><li id=\"imox71zhd7\" class=\"hidden\" > The author controls what appears </li><li id=\"imox71zhd8\" class=\"hidden\" > The same lesson looks the same everywhere </li></ul></section>",
       "groups": {
         "hidden": [
           "hidden"
@@ -75,9 +75,9 @@
           "time": 20,
           "state": {
             "hidden": [
-              "imovvoq4l6",
-              "imovvoq4l7",
-              "imovvoq4l8"
+              "imox71zhd6",
+              "imox71zhd7",
+              "imox71zhd8"
             ]
           }
         },
@@ -85,8 +85,8 @@
           "time": 22,
           "state": {
             "hidden": [
-              "imovvoq4l7",
-              "imovvoq4l8"
+              "imox71zhd7",
+              "imox71zhd8"
             ]
           }
         },
@@ -94,7 +94,7 @@
           "time": 24,
           "state": {
             "hidden": [
-              "imovvoq4l8"
+              "imox71zhd8"
             ]
           }
         },
@@ -110,7 +110,7 @@
       "type": "twoColumnText",
       "start": 30,
       "end": 40,
-      "html": "<section class=\"slide twoColumnText\"><div class=\"col left\"><div id=\"imovvoq4l9\" class=\" hidden \" > taleem-browser shows complete slides. </div></div><div class=\"col right\"><div id=\"imovvoq4la\" class=\" hidden \" > taleem-player reveals ideas progressively. </div></div></section>",
+      "html": "<section class=\"slide twoColumnText\"><div class=\"col left\"><div id=\"imox71zhd9\" class=\" hidden \" > taleem-browser shows complete slides. </div></div><div class=\"col right\"><div id=\"imox71zhda\" class=\" hidden \" > taleem-player reveals ideas progressively. </div></div></section>",
       "groups": {
         "hidden": [
           "hidden"
@@ -121,7 +121,7 @@
           "time": 30,
           "state": {
             "hidden": [
-              "imovvoq4la"
+              "imox71zhda"
             ]
           }
         },
@@ -137,7 +137,7 @@
       "type": "imageSlide",
       "start": 40,
       "end": 50,
-      "html": "<section class=\"slide imageSlide\"><img id=\"imovvoq4lb\" class=\" hidden \" src=\"/content/images/image.png\" alt=\"\" /></section>",
+      "html": "<section class=\"slide imageSlide\"><img id=\"imox71zhdb\" class=\" hidden \" src=\"image.png\" alt=\"\" /></section>",
       "groups": {
         "hidden": [
           "hidden"
@@ -156,7 +156,7 @@
       "type": "imageWithTitle",
       "start": 50,
       "end": 60,
-      "html": "<section class=\"slide imageWithTitle\"><h1 id=\"imovvoq4lc\" class=\" hidden \" > Visual Support Matters </h1><img id=\"imovvoq4ld\" class=\" hidden \" src=\"/content/images/image.png\" /></section>",
+      "html": "<section class=\"slide imageWithTitle\"><h1 id=\"imox71zhdc\" class=\" hidden \" > Visual Support Matters </h1><img id=\"imox71zhdd\" class=\" hidden \" src=\"image.png\" /></section>",
       "groups": {
         "hidden": [
           "hidden"
@@ -167,7 +167,7 @@
           "time": 50,
           "state": {
             "hidden": [
-              "imovvoq4ld"
+              "imox71zhdd"
             ]
           }
         },
@@ -183,7 +183,7 @@
       "type": "imageWithCaption",
       "start": 60,
       "end": 70,
-      "html": "<figure class=\"slide imageWithCaption\"><img id=\"imovvoq4le\" class=\" hidden \" src=\"/content/images/image.png\" /><figcaption id=\"imovvoq4lf\" class=\" hidden \" > Images help anchor understanding </figcaption></figure>",
+      "html": "<figure class=\"slide imageWithCaption\"><img id=\"imox71zhde\" class=\" hidden \" src=\"image.png\" /><figcaption id=\"imox71zhdf\" class=\" hidden \" > Images help anchor understanding </figcaption></figure>",
       "groups": {
         "hidden": [
           "hidden"
@@ -194,7 +194,7 @@
           "time": 60,
           "state": {
             "hidden": [
-              "imovvoq4lf"
+              "imox71zhdf"
             ]
           }
         },
@@ -210,7 +210,7 @@
       "type": "imageLeftBulletsRight",
       "start": 70,
       "end": 80,
-      "html": "<section class=\"slide imageLeftBulletsRight\"><img id=\"imovvoq4lg\" class=\" hidden \" src=\"/content/images/image.png\" /><ul><li id=\"imovvoq4lh\" class=\" hidden \" > Each slide focuses on one idea </li><li id=\"imovvoq4li\" class=\" hidden \" > Points are revealed in order </li><li id=\"imovvoq4lj\" class=\" hidden \" > Students follow step by step </li></ul></section>",
+      "html": "<section class=\"slide imageLeftBulletsRight\"><img id=\"imox71zhdg\" class=\" hidden \" src=\"image.png\" /><ul><li id=\"imox71zhdh\" class=\" hidden \" > Each slide focuses on one idea </li><li id=\"imox71zhdi\" class=\" hidden \" > Points are revealed in order </li><li id=\"imox71zhdj\" class=\" hidden \" > Students follow step by step </li></ul></section>",
       "groups": {
         "hidden": [
           "hidden"
@@ -221,9 +221,9 @@
           "time": 70,
           "state": {
             "hidden": [
-              "imovvoq4lh",
-              "imovvoq4li",
-              "imovvoq4lj"
+              "imox71zhdh",
+              "imox71zhdi",
+              "imox71zhdj"
             ]
           }
         },
@@ -231,8 +231,8 @@
           "time": 72,
           "state": {
             "hidden": [
-              "imovvoq4li",
-              "imovvoq4lj"
+              "imox71zhdi",
+              "imox71zhdj"
             ]
           }
         },
@@ -240,7 +240,7 @@
           "time": 74,
           "state": {
             "hidden": [
-              "imovvoq4lj"
+              "imox71zhdj"
             ]
           }
         },
@@ -256,7 +256,7 @@
       "type": "imageRightBulletsLeft",
       "start": 80,
       "end": 90,
-      "html": "<section class=\"slide imageRightBulletsLeft\"><ul><li id=\"imovvoq4ll\" class=\" hidden \" > Slides remain stable and predictable </li><li id=\"imovvoq4lm\" class=\" hidden \" > The teacher controls the pace </li><li id=\"imovvoq4ln\" class=\" hidden \" > Learning stays calm and focused </li></ul><img id=\"imovvoq4lk\" class=\" hidden \" src=\"/content/images/image.png\" /></section>",
+      "html": "<section class=\"slide imageRightBulletsLeft\"><ul><li id=\"imox71zhdl\" class=\" hidden \" > Slides remain stable and predictable </li><li id=\"imox71zhdm\" class=\" hidden \" > The teacher controls the pace </li><li id=\"imox71zhdn\" class=\" hidden \" > Learning stays calm and focused </li></ul><img id=\"imox71zhdk\" class=\" hidden \" src=\"image.png\" /></section>",
       "groups": {
         "hidden": [
           "hidden"
@@ -267,9 +267,9 @@
           "time": 80,
           "state": {
             "hidden": [
-              "imovvoq4ll",
-              "imovvoq4lm",
-              "imovvoq4ln"
+              "imox71zhdl",
+              "imox71zhdm",
+              "imox71zhdn"
             ]
           }
         },
@@ -277,8 +277,8 @@
           "time": 82,
           "state": {
             "hidden": [
-              "imovvoq4lm",
-              "imovvoq4ln"
+              "imox71zhdm",
+              "imox71zhdn"
             ]
           }
         },
@@ -286,7 +286,7 @@
           "time": 84,
           "state": {
             "hidden": [
-              "imovvoq4ln"
+              "imox71zhdn"
             ]
           }
         },
@@ -302,7 +302,7 @@
       "type": "table",
       "start": 90,
       "end": 100,
-      "html": "<section class=\"slide table\"><table><tbody><tr id=\"imovvoq4lo\" class=\"hidden \" ><td>Layer</td><td>Role</td></tr><tr id=\"imovvoq4lp\" class=\"hidden \" ><td>taleem-core</td><td>Defines schema</td></tr><tr id=\"imovvoq4lq\" class=\"hidden \" ><td>taleem-player</td><td>Playback</td></tr></tbody></table></section>",
+      "html": "<section class=\"slide table\"><table><tbody><tr id=\"imox71zhdo\" class=\"hidden \" ><td>Layer</td><td>Role</td></tr><tr id=\"imox71zhdp\" class=\"hidden \" ><td>taleem-core</td><td>Defines schema</td></tr><tr id=\"imox71zhdq\" class=\"hidden \" ><td>taleem-player</td><td>Playback</td></tr></tbody></table></section>",
       "groups": {
         "hidden": [
           "hidden"
@@ -313,8 +313,8 @@
           "time": 90,
           "state": {
             "hidden": [
-              "imovvoq4lp",
-              "imovvoq4lq"
+              "imox71zhdp",
+              "imox71zhdq"
             ]
           }
         },
@@ -322,7 +322,7 @@
           "time": 92,
           "state": {
             "hidden": [
-              "imovvoq4lq"
+              "imox71zhdq"
             ]
           }
         },
@@ -338,7 +338,7 @@
       "type": "barChart",
       "start": 100,
       "end": 110,
-      "html": "<section class=\"slide barChart\"><div class=\"bar-chart\"><div id=\"imovvoq4lr\" class=\"bar-row hidden \" ><div class=\"bar-label\"> Clarity </div><div class=\"bar-track\"><div class=\"bar-fill\" style=\"width:100%\" ></div></div><div class=\"bar-value\"> 6 </div></div><div id=\"imovvoq4ls\" class=\"bar-row hidden \" ><div class=\"bar-label\"> Structure </div><div class=\"bar-track\"><div class=\"bar-fill\" style=\"width:83.33333333333334%\" ></div></div><div class=\"bar-value\"> 5 </div></div><div id=\"imovvoq4lt\" class=\"bar-row hidden \" ><div class=\"bar-label\"> Consistency </div><div class=\"bar-track\"><div class=\"bar-fill\" style=\"width:100%\" ></div></div><div class=\"bar-value\"> 6 </div></div></div></section>",
+      "html": "<section class=\"slide barChart\"><div class=\"bar-chart\"><div id=\"imox71zhdr\" class=\"bar-row hidden \" ><div class=\"bar-label\"> Clarity </div><div class=\"bar-track\"><div class=\"bar-fill\" style=\"width:100%\" ></div></div><div class=\"bar-value\"> 6 </div></div><div id=\"imox71zhds\" class=\"bar-row hidden \" ><div class=\"bar-label\"> Structure </div><div class=\"bar-track\"><div class=\"bar-fill\" style=\"width:83.33333333333334%\" ></div></div><div class=\"bar-value\"> 5 </div></div><div id=\"imox71zhdt\" class=\"bar-row hidden \" ><div class=\"bar-label\"> Consistency </div><div class=\"bar-track\"><div class=\"bar-fill\" style=\"width:100%\" ></div></div><div class=\"bar-value\"> 6 </div></div></div></section>",
       "groups": {
         "hidden": [
           "hidden"
@@ -349,8 +349,8 @@
           "time": 100,
           "state": {
             "hidden": [
-              "imovvoq4ls",
-              "imovvoq4lt"
+              "imox71zhds",
+              "imox71zhdt"
             ]
           }
         },
@@ -358,7 +358,7 @@
           "time": 102,
           "state": {
             "hidden": [
-              "imovvoq4lt"
+              "imox71zhdt"
             ]
           }
         },
@@ -374,7 +374,7 @@
       "type": "progressbar",
       "start": 110,
       "end": 120,
-      "html": "<section class=\"slide progressbar\"><div id=\"imovvoq4mu\" class=\" progressbar-item hidden \" ><div class=\"progressbar-label\"> Lesson Progress </div><div class=\"progressbar-track\"><div class=\"progressbar-fill\" style=\"width:60%\" ></div></div></div></section>",
+      "html": "<section class=\"slide progressbar\"><div id=\"imox71zhdu\" class=\" progressbar-item hidden \" ><div class=\"progressbar-label\"> Lesson Progress </div><div class=\"progressbar-track\"><div class=\"progressbar-fill\" style=\"width:60%\" ></div></div></div></section>",
       "groups": {
         "hidden": [
           "hidden"
@@ -393,7 +393,7 @@
       "type": "quoteSlide",
       "start": 120,
       "end": 130,
-      "html": "<blockquote class=\"slide quoteSlide\"><p id=\"imovvoq4mv\" class=\" hidden \" > Clarity makes learning easier. </p><footer id=\"imovvoq4mw\" class=\" hidden \" > — taleem </footer></blockquote>",
+      "html": "<blockquote class=\"slide quoteSlide\"><p id=\"imox71zhdv\" class=\" hidden \" > Clarity makes learning easier. </p><footer id=\"imox71zhdw\" class=\" hidden \" > — taleem </footer></blockquote>",
       "groups": {
         "hidden": [
           "hidden"
@@ -404,7 +404,7 @@
           "time": 120,
           "state": {
             "hidden": [
-              "imovvoq4mw"
+              "imox71zhdw"
             ]
           }
         },
@@ -420,7 +420,7 @@
       "type": "keyIdeasSlide",
       "start": 130,
       "end": 140,
-      "html": "<section class=\"slide keyIdeasSlide\"><div id=\"imovvoq4mx\" class=\" key-idea hidden \" ><div class=\"icon\"> 🧠 </div><div class=\"label\"> Focus </div></div><div id=\"imovvoq4my\" class=\" key-idea hidden \" ><div class=\"icon\"> 📘 </div><div class=\"label\"> Clarity </div></div><div id=\"imovvoq4mz\" class=\" key-idea hidden \" ><div class=\"icon\"> 🎯 </div><div class=\"label\"> Understanding </div></div><div id=\"imovvoq4m10\" class=\" key-idea hidden \" ><div class=\"icon\"> 🧠 </div><div class=\"label\"> Deliberation </div></div></section>",
+      "html": "<section class=\"slide keyIdeasSlide\"><div id=\"imox71zhdx\" class=\" key-idea hidden \" ><div class=\"icon\"> 🧠 </div><div class=\"label\"> Focus </div></div><div id=\"imox71zhdy\" class=\" key-idea hidden \" ><div class=\"icon\"> 📘 </div><div class=\"label\"> Clarity </div></div><div id=\"imox71zhdz\" class=\" key-idea hidden \" ><div class=\"icon\"> 🎯 </div><div class=\"label\"> Understanding </div></div><div id=\"imox71zhd10\" class=\" key-idea hidden \" ><div class=\"icon\"> 🧠 </div><div class=\"label\"> Deliberation </div></div></section>",
       "groups": {
         "hidden": [
           "hidden"
@@ -431,9 +431,9 @@
           "time": 130,
           "state": {
             "hidden": [
-              "imovvoq4my",
-              "imovvoq4mz",
-              "imovvoq4m10"
+              "imox71zhdy",
+              "imox71zhdz",
+              "imox71zhd10"
             ]
           }
         },
@@ -441,8 +441,8 @@
           "time": 132,
           "state": {
             "hidden": [
-              "imovvoq4mz",
-              "imovvoq4m10"
+              "imox71zhdz",
+              "imox71zhd10"
             ]
           }
         },
@@ -450,7 +450,7 @@
           "time": 134,
           "state": {
             "hidden": [
-              "imovvoq4m10"
+              "imox71zhd10"
             ]
           }
         },
@@ -466,7 +466,7 @@
       "type": "eq",
       "start": 140,
       "end": 155,
-      "html": "<section class=\"slide eq\"><ul class=\"eq-lines\"><li id=\"imovvoq4m11\" class=\" eq-item eq-title \" > Expansion of a Binomial </li><li id=\"imovvoq4m12\" class=\" eq-item eq-math \" > $$ (a+b)^2 $$ </li><li id=\"imovvoq4m13\" class=\" eq-item eq-math \" > $$ = (a+b)(a+b) $$ </li><li id=\"imovvoq4m14\" class=\" eq-item eq-math \" > $$ = a(a+b) + b(a+b) $$ </li><li id=\"imovvoq4m15\" class=\" eq-item eq-math \" > $$ = a^2 + ab + ab + b^2 $$ </li><li id=\"imovvoq4m16\" class=\" eq-item eq-line \" > Two middle terms are identical. </li><li id=\"imovvoq4m17\" class=\" eq-item eq-math \" > $$ = a^2 + 2ab + b^2 $$ </li><li id=\"imovvoq4m18\" class=\" eq-item eq-line \" > This identity appears frequently in algebra. </li><li id=\"imovvoq4m19\" class=\" eq-item eq-math \" > $$ (x+y)^2 = x^2 + 2xy + y^2 $$ </li><li id=\"imovvoq4m1a\" class=\" eq-item eq-line \" > Always verify expansions carefully. </li></ul><div class=\"eq-side-panel\"><div id=\"imovvoq4m11-sp-1\" class=\"eq-explain-item hidden\" > Expand the square step by step. </div><div id=\"imovvoq4m11-sp-2\" class=\"eq-explain-item hidden\" > Then combine like terms. </div><div id=\"imovvoq4m12-sp-1\" class=\"eq-explain-item hidden\" > The bracket multiplies itself. </div><div id=\"imovvoq4m13-sp-1\" class=\"eq-explain-item hidden\" ><img src=\"/content/images/box.webp\" /></div><div id=\"imovvoq4m13-sp-2\" class=\"eq-explain-item hidden\" > Area model of multiplication. </div><div id=\"imovvoq4m14-sp-1\" class=\"eq-explain-item hidden\" > Distribute both terms carefully. </div><div id=\"imovvoq4m15-sp-1\" class=\"eq-explain-item hidden\" > Every product is now visible. </div><div id=\"imovvoq4m16-sp-1\" class=\"eq-explain-item hidden\" > Both contain ab. </div><div id=\"imovvoq4m17-sp-1\" class=\"eq-explain-item hidden\" > Combine like terms. </div><div id=\"imovvoq4m18-sp-1\" class=\"eq-explain-item hidden\" > Used in simplification and factorization. </div><div id=\"imovvoq4m19-sp-1\" class=\"eq-explain-item hidden\" > The same pattern works for all variables. </div><div id=\"imovvoq4m1a-sp-1\" class=\"eq-explain-item hidden\" > Most algebra mistakes happen during expansion. </div></div></section>",
+      "html": "<section class=\"slide eq\"><ul class=\"eq-lines\"><li id=\"imox71zhd11\" class=\" eq-item eq-title \" > Expansion of a Binomial </li><li id=\"imox71zhd12\" class=\" eq-item eq-math \" > $$ (a+b)^2 $$ </li><li id=\"imox71zhd13\" class=\" eq-item eq-math \" > $$ = (a+b)(a+b) $$ </li><li id=\"imox71zhd14\" class=\" eq-item eq-math \" > $$ = a(a+b) + b(a+b) $$ </li><li id=\"imox71zhd15\" class=\" eq-item eq-math \" > $$ = a^2 + ab + ab + b^2 $$ </li><li id=\"imox71zhd16\" class=\" eq-item eq-line \" > Two middle terms are identical. </li><li id=\"imox71zhd17\" class=\" eq-item eq-math \" > $$ = a^2 + 2ab + b^2 $$ </li><li id=\"imox71zhd18\" class=\" eq-item eq-line \" > This identity appears frequently in algebra. </li><li id=\"imox71zhd19\" class=\" eq-item eq-math \" > $$ (x+y)^2 = x^2 + 2xy + y^2 $$ </li><li id=\"imox71zhd1a\" class=\" eq-item eq-line \" > Always verify expansions carefully. </li></ul><div class=\"eq-side-panel\"><div id=\"imox71zhd11-sp-1\" class=\"eq-explain-item hidden\" > Expand the square step by step. </div><div id=\"imox71zhd11-sp-2\" class=\"eq-explain-item hidden\" > Then combine like terms. </div><div id=\"imox71zhd12-sp-1\" class=\"eq-explain-item hidden\" > The bracket multiplies itself. </div><div id=\"imox71zhd13-sp-1\" class=\"eq-explain-item hidden\" ><img src=\"box.webp\" /></div><div id=\"imox71zhd13-sp-2\" class=\"eq-explain-item hidden\" > Area model of multiplication. </div><div id=\"imox71zhd14-sp-1\" class=\"eq-explain-item hidden\" > Distribute both terms carefully. </div><div id=\"imox71zhd15-sp-1\" class=\"eq-explain-item hidden\" > Every product is now visible. </div><div id=\"imox71zhd16-sp-1\" class=\"eq-explain-item hidden\" > Both contain ab. </div><div id=\"imox71zhd17-sp-1\" class=\"eq-explain-item hidden\" > Combine like terms. </div><div id=\"imox71zhd18-sp-1\" class=\"eq-explain-item hidden\" > Used in simplification and factorization. </div><div id=\"imox71zhd19-sp-1\" class=\"eq-explain-item hidden\" > The same pattern works for all variables. </div><div id=\"imox71zhd1a-sp-1\" class=\"eq-explain-item hidden\" > Most algebra mistakes happen during expansion. </div></div></section>",
       "groups": {
         "focus": [],
         "dim": [
@@ -482,34 +482,34 @@
           "time": 140,
           "state": {
             "focus": [
-              "imovvoq4m11"
+              "imox71zhd11"
             ],
             "dim": [
-              "imovvoq4m12",
-              "imovvoq4m13",
-              "imovvoq4m14",
-              "imovvoq4m15",
-              "imovvoq4m16",
-              "imovvoq4m17",
-              "imovvoq4m18",
-              "imovvoq4m19",
-              "imovvoq4m1a"
+              "imox71zhd12",
+              "imox71zhd13",
+              "imox71zhd14",
+              "imox71zhd15",
+              "imox71zhd16",
+              "imox71zhd17",
+              "imox71zhd18",
+              "imox71zhd19",
+              "imox71zhd1a"
             ],
             "visible": [
-              "imovvoq4m11-sp-1",
-              "imovvoq4m11-sp-2"
+              "imox71zhd11-sp-1",
+              "imox71zhd11-sp-2"
             ],
             "hidden": [
-              "imovvoq4m12-sp-1",
-              "imovvoq4m13-sp-1",
-              "imovvoq4m13-sp-2",
-              "imovvoq4m14-sp-1",
-              "imovvoq4m15-sp-1",
-              "imovvoq4m16-sp-1",
-              "imovvoq4m17-sp-1",
-              "imovvoq4m18-sp-1",
-              "imovvoq4m19-sp-1",
-              "imovvoq4m1a-sp-1"
+              "imox71zhd12-sp-1",
+              "imox71zhd13-sp-1",
+              "imox71zhd13-sp-2",
+              "imox71zhd14-sp-1",
+              "imox71zhd15-sp-1",
+              "imox71zhd16-sp-1",
+              "imox71zhd17-sp-1",
+              "imox71zhd18-sp-1",
+              "imox71zhd19-sp-1",
+              "imox71zhd1a-sp-1"
             ]
           }
         },
@@ -517,34 +517,34 @@
           "time": 141,
           "state": {
             "focus": [
-              "imovvoq4m12"
+              "imox71zhd12"
             ],
             "dim": [
-              "imovvoq4m11",
-              "imovvoq4m13",
-              "imovvoq4m14",
-              "imovvoq4m15",
-              "imovvoq4m16",
-              "imovvoq4m17",
-              "imovvoq4m18",
-              "imovvoq4m19",
-              "imovvoq4m1a"
+              "imox71zhd11",
+              "imox71zhd13",
+              "imox71zhd14",
+              "imox71zhd15",
+              "imox71zhd16",
+              "imox71zhd17",
+              "imox71zhd18",
+              "imox71zhd19",
+              "imox71zhd1a"
             ],
             "visible": [
-              "imovvoq4m12-sp-1"
+              "imox71zhd12-sp-1"
             ],
             "hidden": [
-              "imovvoq4m11-sp-1",
-              "imovvoq4m11-sp-2",
-              "imovvoq4m13-sp-1",
-              "imovvoq4m13-sp-2",
-              "imovvoq4m14-sp-1",
-              "imovvoq4m15-sp-1",
-              "imovvoq4m16-sp-1",
-              "imovvoq4m17-sp-1",
-              "imovvoq4m18-sp-1",
-              "imovvoq4m19-sp-1",
-              "imovvoq4m1a-sp-1"
+              "imox71zhd11-sp-1",
+              "imox71zhd11-sp-2",
+              "imox71zhd13-sp-1",
+              "imox71zhd13-sp-2",
+              "imox71zhd14-sp-1",
+              "imox71zhd15-sp-1",
+              "imox71zhd16-sp-1",
+              "imox71zhd17-sp-1",
+              "imox71zhd18-sp-1",
+              "imox71zhd19-sp-1",
+              "imox71zhd1a-sp-1"
             ]
           }
         },
@@ -552,34 +552,34 @@
           "time": 142,
           "state": {
             "focus": [
-              "imovvoq4m13"
+              "imox71zhd13"
             ],
             "dim": [
-              "imovvoq4m11",
-              "imovvoq4m12",
-              "imovvoq4m14",
-              "imovvoq4m15",
-              "imovvoq4m16",
-              "imovvoq4m17",
-              "imovvoq4m18",
-              "imovvoq4m19",
-              "imovvoq4m1a"
+              "imox71zhd11",
+              "imox71zhd12",
+              "imox71zhd14",
+              "imox71zhd15",
+              "imox71zhd16",
+              "imox71zhd17",
+              "imox71zhd18",
+              "imox71zhd19",
+              "imox71zhd1a"
             ],
             "visible": [
-              "imovvoq4m13-sp-1",
-              "imovvoq4m13-sp-2"
+              "imox71zhd13-sp-1",
+              "imox71zhd13-sp-2"
             ],
             "hidden": [
-              "imovvoq4m11-sp-1",
-              "imovvoq4m11-sp-2",
-              "imovvoq4m12-sp-1",
-              "imovvoq4m14-sp-1",
-              "imovvoq4m15-sp-1",
-              "imovvoq4m16-sp-1",
-              "imovvoq4m17-sp-1",
-              "imovvoq4m18-sp-1",
-              "imovvoq4m19-sp-1",
-              "imovvoq4m1a-sp-1"
+              "imox71zhd11-sp-1",
+              "imox71zhd11-sp-2",
+              "imox71zhd12-sp-1",
+              "imox71zhd14-sp-1",
+              "imox71zhd15-sp-1",
+              "imox71zhd16-sp-1",
+              "imox71zhd17-sp-1",
+              "imox71zhd18-sp-1",
+              "imox71zhd19-sp-1",
+              "imox71zhd1a-sp-1"
             ]
           }
         },
@@ -587,34 +587,34 @@
           "time": 143,
           "state": {
             "focus": [
-              "imovvoq4m14"
+              "imox71zhd14"
             ],
             "dim": [
-              "imovvoq4m11",
-              "imovvoq4m12",
-              "imovvoq4m13",
-              "imovvoq4m15",
-              "imovvoq4m16",
-              "imovvoq4m17",
-              "imovvoq4m18",
-              "imovvoq4m19",
-              "imovvoq4m1a"
+              "imox71zhd11",
+              "imox71zhd12",
+              "imox71zhd13",
+              "imox71zhd15",
+              "imox71zhd16",
+              "imox71zhd17",
+              "imox71zhd18",
+              "imox71zhd19",
+              "imox71zhd1a"
             ],
             "visible": [
-              "imovvoq4m14-sp-1"
+              "imox71zhd14-sp-1"
             ],
             "hidden": [
-              "imovvoq4m11-sp-1",
-              "imovvoq4m11-sp-2",
-              "imovvoq4m12-sp-1",
-              "imovvoq4m13-sp-1",
-              "imovvoq4m13-sp-2",
-              "imovvoq4m15-sp-1",
-              "imovvoq4m16-sp-1",
-              "imovvoq4m17-sp-1",
-              "imovvoq4m18-sp-1",
-              "imovvoq4m19-sp-1",
-              "imovvoq4m1a-sp-1"
+              "imox71zhd11-sp-1",
+              "imox71zhd11-sp-2",
+              "imox71zhd12-sp-1",
+              "imox71zhd13-sp-1",
+              "imox71zhd13-sp-2",
+              "imox71zhd15-sp-1",
+              "imox71zhd16-sp-1",
+              "imox71zhd17-sp-1",
+              "imox71zhd18-sp-1",
+              "imox71zhd19-sp-1",
+              "imox71zhd1a-sp-1"
             ]
           }
         },
@@ -622,34 +622,34 @@
           "time": 144,
           "state": {
             "focus": [
-              "imovvoq4m15"
+              "imox71zhd15"
             ],
             "dim": [
-              "imovvoq4m11",
-              "imovvoq4m12",
-              "imovvoq4m13",
-              "imovvoq4m14",
-              "imovvoq4m16",
-              "imovvoq4m17",
-              "imovvoq4m18",
-              "imovvoq4m19",
-              "imovvoq4m1a"
+              "imox71zhd11",
+              "imox71zhd12",
+              "imox71zhd13",
+              "imox71zhd14",
+              "imox71zhd16",
+              "imox71zhd17",
+              "imox71zhd18",
+              "imox71zhd19",
+              "imox71zhd1a"
             ],
             "visible": [
-              "imovvoq4m15-sp-1"
+              "imox71zhd15-sp-1"
             ],
             "hidden": [
-              "imovvoq4m11-sp-1",
-              "imovvoq4m11-sp-2",
-              "imovvoq4m12-sp-1",
-              "imovvoq4m13-sp-1",
-              "imovvoq4m13-sp-2",
-              "imovvoq4m14-sp-1",
-              "imovvoq4m16-sp-1",
-              "imovvoq4m17-sp-1",
-              "imovvoq4m18-sp-1",
-              "imovvoq4m19-sp-1",
-              "imovvoq4m1a-sp-1"
+              "imox71zhd11-sp-1",
+              "imox71zhd11-sp-2",
+              "imox71zhd12-sp-1",
+              "imox71zhd13-sp-1",
+              "imox71zhd13-sp-2",
+              "imox71zhd14-sp-1",
+              "imox71zhd16-sp-1",
+              "imox71zhd17-sp-1",
+              "imox71zhd18-sp-1",
+              "imox71zhd19-sp-1",
+              "imox71zhd1a-sp-1"
             ]
           }
         },
@@ -657,34 +657,34 @@
           "time": 145,
           "state": {
             "focus": [
-              "imovvoq4m16"
+              "imox71zhd16"
             ],
             "dim": [
-              "imovvoq4m11",
-              "imovvoq4m12",
-              "imovvoq4m13",
-              "imovvoq4m14",
-              "imovvoq4m15",
-              "imovvoq4m17",
-              "imovvoq4m18",
-              "imovvoq4m19",
-              "imovvoq4m1a"
+              "imox71zhd11",
+              "imox71zhd12",
+              "imox71zhd13",
+              "imox71zhd14",
+              "imox71zhd15",
+              "imox71zhd17",
+              "imox71zhd18",
+              "imox71zhd19",
+              "imox71zhd1a"
             ],
             "visible": [
-              "imovvoq4m16-sp-1"
+              "imox71zhd16-sp-1"
             ],
             "hidden": [
-              "imovvoq4m11-sp-1",
-              "imovvoq4m11-sp-2",
-              "imovvoq4m12-sp-1",
-              "imovvoq4m13-sp-1",
-              "imovvoq4m13-sp-2",
-              "imovvoq4m14-sp-1",
-              "imovvoq4m15-sp-1",
-              "imovvoq4m17-sp-1",
-              "imovvoq4m18-sp-1",
-              "imovvoq4m19-sp-1",
-              "imovvoq4m1a-sp-1"
+              "imox71zhd11-sp-1",
+              "imox71zhd11-sp-2",
+              "imox71zhd12-sp-1",
+              "imox71zhd13-sp-1",
+              "imox71zhd13-sp-2",
+              "imox71zhd14-sp-1",
+              "imox71zhd15-sp-1",
+              "imox71zhd17-sp-1",
+              "imox71zhd18-sp-1",
+              "imox71zhd19-sp-1",
+              "imox71zhd1a-sp-1"
             ]
           }
         },
@@ -692,34 +692,34 @@
           "time": 146,
           "state": {
             "focus": [
-              "imovvoq4m17"
+              "imox71zhd17"
             ],
             "dim": [
-              "imovvoq4m11",
-              "imovvoq4m12",
-              "imovvoq4m13",
-              "imovvoq4m14",
-              "imovvoq4m15",
-              "imovvoq4m16",
-              "imovvoq4m18",
-              "imovvoq4m19",
-              "imovvoq4m1a"
+              "imox71zhd11",
+              "imox71zhd12",
+              "imox71zhd13",
+              "imox71zhd14",
+              "imox71zhd15",
+              "imox71zhd16",
+              "imox71zhd18",
+              "imox71zhd19",
+              "imox71zhd1a"
             ],
             "visible": [
-              "imovvoq4m17-sp-1"
+              "imox71zhd17-sp-1"
             ],
             "hidden": [
-              "imovvoq4m11-sp-1",
-              "imovvoq4m11-sp-2",
-              "imovvoq4m12-sp-1",
-              "imovvoq4m13-sp-1",
-              "imovvoq4m13-sp-2",
-              "imovvoq4m14-sp-1",
-              "imovvoq4m15-sp-1",
-              "imovvoq4m16-sp-1",
-              "imovvoq4m18-sp-1",
-              "imovvoq4m19-sp-1",
-              "imovvoq4m1a-sp-1"
+              "imox71zhd11-sp-1",
+              "imox71zhd11-sp-2",
+              "imox71zhd12-sp-1",
+              "imox71zhd13-sp-1",
+              "imox71zhd13-sp-2",
+              "imox71zhd14-sp-1",
+              "imox71zhd15-sp-1",
+              "imox71zhd16-sp-1",
+              "imox71zhd18-sp-1",
+              "imox71zhd19-sp-1",
+              "imox71zhd1a-sp-1"
             ]
           }
         },
@@ -727,34 +727,34 @@
           "time": 147,
           "state": {
             "focus": [
-              "imovvoq4m18"
+              "imox71zhd18"
             ],
             "dim": [
-              "imovvoq4m11",
-              "imovvoq4m12",
-              "imovvoq4m13",
-              "imovvoq4m14",
-              "imovvoq4m15",
-              "imovvoq4m16",
-              "imovvoq4m17",
-              "imovvoq4m19",
-              "imovvoq4m1a"
+              "imox71zhd11",
+              "imox71zhd12",
+              "imox71zhd13",
+              "imox71zhd14",
+              "imox71zhd15",
+              "imox71zhd16",
+              "imox71zhd17",
+              "imox71zhd19",
+              "imox71zhd1a"
             ],
             "visible": [
-              "imovvoq4m18-sp-1"
+              "imox71zhd18-sp-1"
             ],
             "hidden": [
-              "imovvoq4m11-sp-1",
-              "imovvoq4m11-sp-2",
-              "imovvoq4m12-sp-1",
-              "imovvoq4m13-sp-1",
-              "imovvoq4m13-sp-2",
-              "imovvoq4m14-sp-1",
-              "imovvoq4m15-sp-1",
-              "imovvoq4m16-sp-1",
-              "imovvoq4m17-sp-1",
-              "imovvoq4m19-sp-1",
-              "imovvoq4m1a-sp-1"
+              "imox71zhd11-sp-1",
+              "imox71zhd11-sp-2",
+              "imox71zhd12-sp-1",
+              "imox71zhd13-sp-1",
+              "imox71zhd13-sp-2",
+              "imox71zhd14-sp-1",
+              "imox71zhd15-sp-1",
+              "imox71zhd16-sp-1",
+              "imox71zhd17-sp-1",
+              "imox71zhd19-sp-1",
+              "imox71zhd1a-sp-1"
             ]
           }
         },
@@ -762,34 +762,34 @@
           "time": 148,
           "state": {
             "focus": [
-              "imovvoq4m19"
+              "imox71zhd19"
             ],
             "dim": [
-              "imovvoq4m11",
-              "imovvoq4m12",
-              "imovvoq4m13",
-              "imovvoq4m14",
-              "imovvoq4m15",
-              "imovvoq4m16",
-              "imovvoq4m17",
-              "imovvoq4m18",
-              "imovvoq4m1a"
+              "imox71zhd11",
+              "imox71zhd12",
+              "imox71zhd13",
+              "imox71zhd14",
+              "imox71zhd15",
+              "imox71zhd16",
+              "imox71zhd17",
+              "imox71zhd18",
+              "imox71zhd1a"
             ],
             "visible": [
-              "imovvoq4m19-sp-1"
+              "imox71zhd19-sp-1"
             ],
             "hidden": [
-              "imovvoq4m11-sp-1",
-              "imovvoq4m11-sp-2",
-              "imovvoq4m12-sp-1",
-              "imovvoq4m13-sp-1",
-              "imovvoq4m13-sp-2",
-              "imovvoq4m14-sp-1",
-              "imovvoq4m15-sp-1",
-              "imovvoq4m16-sp-1",
-              "imovvoq4m17-sp-1",
-              "imovvoq4m18-sp-1",
-              "imovvoq4m1a-sp-1"
+              "imox71zhd11-sp-1",
+              "imox71zhd11-sp-2",
+              "imox71zhd12-sp-1",
+              "imox71zhd13-sp-1",
+              "imox71zhd13-sp-2",
+              "imox71zhd14-sp-1",
+              "imox71zhd15-sp-1",
+              "imox71zhd16-sp-1",
+              "imox71zhd17-sp-1",
+              "imox71zhd18-sp-1",
+              "imox71zhd1a-sp-1"
             ]
           }
         },
@@ -797,34 +797,34 @@
           "time": 149,
           "state": {
             "focus": [
-              "imovvoq4m1a"
+              "imox71zhd1a"
             ],
             "dim": [
-              "imovvoq4m11",
-              "imovvoq4m12",
-              "imovvoq4m13",
-              "imovvoq4m14",
-              "imovvoq4m15",
-              "imovvoq4m16",
-              "imovvoq4m17",
-              "imovvoq4m18",
-              "imovvoq4m19"
+              "imox71zhd11",
+              "imox71zhd12",
+              "imox71zhd13",
+              "imox71zhd14",
+              "imox71zhd15",
+              "imox71zhd16",
+              "imox71zhd17",
+              "imox71zhd18",
+              "imox71zhd19"
             ],
             "visible": [
-              "imovvoq4m1a-sp-1"
+              "imox71zhd1a-sp-1"
             ],
             "hidden": [
-              "imovvoq4m11-sp-1",
-              "imovvoq4m11-sp-2",
-              "imovvoq4m12-sp-1",
-              "imovvoq4m13-sp-1",
-              "imovvoq4m13-sp-2",
-              "imovvoq4m14-sp-1",
-              "imovvoq4m15-sp-1",
-              "imovvoq4m16-sp-1",
-              "imovvoq4m17-sp-1",
-              "imovvoq4m18-sp-1",
-              "imovvoq4m19-sp-1"
+              "imox71zhd11-sp-1",
+              "imox71zhd11-sp-2",
+              "imox71zhd12-sp-1",
+              "imox71zhd13-sp-1",
+              "imox71zhd13-sp-2",
+              "imox71zhd14-sp-1",
+              "imox71zhd15-sp-1",
+              "imox71zhd16-sp-1",
+              "imox71zhd17-sp-1",
+              "imox71zhd18-sp-1",
+              "imox71zhd19-sp-1"
             ]
           }
         }
@@ -834,7 +834,7 @@
       "type": "fillImage",
       "start": 155,
       "end": 160,
-      "html": "<section class=\"slide fillImage\"><img id=\"imovvoq4m1b\" class=\" hidden \" src=\"/content/images/image.png\" /></section>",
+      "html": "<section class=\"slide fillImage\"><img id=\"imox71zhe1b\" class=\" hidden \" src=\"image.png\" /></section>",
       "groups": {
         "hidden": [
           "hidden"
@@ -853,7 +853,7 @@
       "type": "focusList",
       "start": 160,
       "end": 170,
-      "html": "<section class=\"slide focusList\"><h1 id=\"imovvoq4m1c\" class=\"\" > Step-by-step focus </h1><ul><li id=\"imovvoq4m1d\" class=\"\" > Understand the idea </li><li id=\"imovvoq4m1e\" class=\"\" > Break it into parts </li><li id=\"imovvoq4m1f\" class=\"\" > Verify the result </li></ul></section>",
+      "html": "<section class=\"slide focusList\"><h1 id=\"imox71zhe1c\" class=\"\" > Step-by-step focus </h1><ul><li id=\"imox71zhe1d\" class=\"\" > Understand the idea </li><li id=\"imox71zhe1e\" class=\"\" > Break it into parts </li><li id=\"imox71zhe1f\" class=\"\" > Verify the result </li></ul></section>",
       "groups": {
         "focus": [],
         "dim": [
@@ -865,12 +865,12 @@
           "time": 160,
           "state": {
             "focus": [
-              "imovvoq4m1c"
+              "imox71zhe1c"
             ],
             "dim": [
-              "imovvoq4m1d",
-              "imovvoq4m1e",
-              "imovvoq4m1f"
+              "imox71zhe1d",
+              "imox71zhe1e",
+              "imox71zhe1f"
             ]
           }
         },
@@ -878,12 +878,12 @@
           "time": 162,
           "state": {
             "focus": [
-              "imovvoq4m1d"
+              "imox71zhe1d"
             ],
             "dim": [
-              "imovvoq4m1c",
-              "imovvoq4m1e",
-              "imovvoq4m1f"
+              "imox71zhe1c",
+              "imox71zhe1e",
+              "imox71zhe1f"
             ]
           }
         },
@@ -891,12 +891,12 @@
           "time": 164,
           "state": {
             "focus": [
-              "imovvoq4m1e"
+              "imox71zhe1e"
             ],
             "dim": [
-              "imovvoq4m1c",
-              "imovvoq4m1d",
-              "imovvoq4m1f"
+              "imox71zhe1c",
+              "imox71zhe1d",
+              "imox71zhe1f"
             ]
           }
         },
@@ -904,12 +904,12 @@
           "time": 166,
           "state": {
             "focus": [
-              "imovvoq4m1f"
+              "imox71zhe1f"
             ],
             "dim": [
-              "imovvoq4m1c",
-              "imovvoq4m1d",
-              "imovvoq4m1e"
+              "imox71zhe1c",
+              "imox71zhe1d",
+              "imox71zhe1e"
             ]
           }
         }
@@ -919,7 +919,7 @@
       "type": "imageStrip",
       "start": 170,
       "end": 180,
-      "html": "<section class=\"slide imageStrip\"><div class=\"image-strip\"><div class=\"image-strip-item\"><img id=\"imovvoq4m1g\" class=\" hidden \" src=\"/content/images/box.webp\" /></div><div class=\"image-strip-item\"><img id=\"imovvoq4m1h\" class=\" hidden \" src=\"/content/images/image.png\" /></div><div class=\"image-strip-item\"><img id=\"imovvoq4m1i\" class=\" hidden \" src=\"/content/images/whatisforce.webp\" /></div></div></section>",
+      "html": "<section class=\"slide imageStrip\"><div class=\"image-strip\"><div class=\"image-strip-item\"><img id=\"imox71zhe1g\" class=\" hidden \" src=\"box.webp\" /></div><div class=\"image-strip-item\"><img id=\"imox71zhe1h\" class=\" hidden \" src=\"image.png\" /></div><div class=\"image-strip-item\"><img id=\"imox71zhe1i\" class=\" hidden \" src=\"whatisforce.webp\" /></div></div></section>",
       "groups": {
         "hidden": [
           "hidden"
@@ -930,8 +930,8 @@
           "time": 170,
           "state": {
             "hidden": [
-              "imovvoq4m1h",
-              "imovvoq4m1i"
+              "imox71zhe1h",
+              "imox71zhe1i"
             ]
           }
         },
@@ -939,7 +939,7 @@
           "time": 172,
           "state": {
             "hidden": [
-              "imovvoq4m1i"
+              "imox71zhe1i"
             ]
           }
         },
@@ -955,7 +955,7 @@
       "type": "imageGrid",
       "start": 180,
       "end": 190,
-      "html": "<section class=\"slide imageGrid\"><div class=\"image-grid\"><div class=\"image-grid-item\"><img id=\"imovvoq4m1j\" class=\" hidden \" src=\"/content/images/box.webp\" /></div><div class=\"image-grid-item\"><img id=\"imovvoq4m1k\" class=\" hidden \" src=\"/content/images/image.png\" /></div><div class=\"image-grid-item\"><img id=\"imovvoq4m1l\" class=\" hidden \" src=\"/content/images/whatisforce.webp\" /></div><div class=\"image-grid-item\"><img id=\"imovvoq4m1m\" class=\" hidden \" src=\"/content/images/box.webp\" /></div></div></section>",
+      "html": "<section class=\"slide imageGrid\"><div class=\"image-grid\"><div class=\"image-grid-item\"><img id=\"imox71zhe1j\" class=\" hidden \" src=\"box.webp\" /></div><div class=\"image-grid-item\"><img id=\"imox71zhe1k\" class=\" hidden \" src=\"image.png\" /></div><div class=\"image-grid-item\"><img id=\"imox71zhe1l\" class=\" hidden \" src=\"whatisforce.webp\" /></div><div class=\"image-grid-item\"><img id=\"imox71zhe1m\" class=\" hidden \" src=\"box.webp\" /></div></div></section>",
       "groups": {
         "hidden": [
           "hidden"
@@ -966,9 +966,9 @@
           "time": 180,
           "state": {
             "hidden": [
-              "imovvoq4m1k",
-              "imovvoq4m1l",
-              "imovvoq4m1m"
+              "imox71zhe1k",
+              "imox71zhe1l",
+              "imox71zhe1m"
             ]
           }
         },
@@ -976,8 +976,8 @@
           "time": 182,
           "state": {
             "hidden": [
-              "imovvoq4m1l",
-              "imovvoq4m1m"
+              "imox71zhe1l",
+              "imox71zhe1m"
             ]
           }
         },
@@ -985,7 +985,7 @@
           "time": 184,
           "state": {
             "hidden": [
-              "imovvoq4m1m"
+              "imox71zhe1m"
             ]
           }
         },
@@ -1001,7 +1001,7 @@
       "type": "skeleton",
       "start": 190,
       "end": 200,
-      "html": "<section class=\"slide skeleton\"><div class=\"skeleton-body\"><h1 id=\"imovvoq4n1n\" class=\"hidden \" > Understanding Force </h1><div id=\"imovvoq4n1o\" class=\"skeleton-image hidden \" ><img src=\"/content/images/whatisforce.webp\" /></div><p id=\"imovvoq4n1p\" class=\"hidden \" > Force is a push or pull. </p></div></section>",
+      "html": "<section class=\"slide skeleton\"><div class=\"skeleton-body\"><h1 id=\"imox71zhe1n\" class=\"hidden \" > Understanding Force </h1><div id=\"imox71zhe1o\" class=\"skeleton-image hidden \" ><img src=\"whatisforce.webp\" /></div><p id=\"imox71zhe1p\" class=\"hidden \" > Force is a push or pull. </p></div></section>",
       "groups": {
         "visible": [],
         "hidden": [
@@ -1013,11 +1013,11 @@
           "time": 190,
           "state": {
             "visible": [
-              "imovvoq4n1n"
+              "imox71zhe1n"
             ],
             "hidden": [
-              "imovvoq4n1o",
-              "imovvoq4n1p"
+              "imox71zhe1o",
+              "imox71zhe1p"
             ]
           }
         },
@@ -1025,11 +1025,11 @@
           "time": 192,
           "state": {
             "visible": [
-              "imovvoq4n1o"
+              "imox71zhe1o"
             ],
             "hidden": [
-              "imovvoq4n1n",
-              "imovvoq4n1p"
+              "imox71zhe1n",
+              "imox71zhe1p"
             ]
           }
         },
@@ -1037,11 +1037,11 @@
           "time": 194,
           "state": {
             "visible": [
-              "imovvoq4n1p"
+              "imox71zhe1p"
             ],
             "hidden": [
-              "imovvoq4n1n",
-              "imovvoq4n1o"
+              "imox71zhe1n",
+              "imox71zhe1o"
             ]
           }
         }
@@ -1051,7 +1051,7 @@
       "type": "textGrid",
       "start": 200,
       "end": 210,
-      "html": "<section class=\"slide textGrid\"><div class=\"text-grid\"><div id=\"imovvoq4n1q\" class=\" text-grid-item hidden \" > Clear structure improves understanding </div><div id=\"imovvoq4n1r\" class=\" text-grid-item hidden \" > Each idea should be isolated </div><div id=\"imovvoq4n1s\" class=\" text-grid-item hidden \" > Visual layout reduces confusion </div><div id=\"imovvoq4n1t\" class=\" text-grid-item hidden \" > Consistency improves learning </div></div></section>",
+      "html": "<section class=\"slide textGrid\"><div class=\"text-grid\"><div id=\"imox71zhe1q\" class=\" text-grid-item hidden \" > Clear structure improves understanding </div><div id=\"imox71zhe1r\" class=\" text-grid-item hidden \" > Each idea should be isolated </div><div id=\"imox71zhe1s\" class=\" text-grid-item hidden \" > Visual layout reduces confusion </div><div id=\"imox71zhe1t\" class=\" text-grid-item hidden \" > Consistency improves learning </div></div></section>",
       "groups": {
         "hidden": [
           "hidden"
@@ -1062,9 +1062,9 @@
           "time": 200,
           "state": {
             "hidden": [
-              "imovvoq4n1r",
-              "imovvoq4n1s",
-              "imovvoq4n1t"
+              "imox71zhe1r",
+              "imox71zhe1s",
+              "imox71zhe1t"
             ]
           }
         },
@@ -1072,8 +1072,8 @@
           "time": 202,
           "state": {
             "hidden": [
-              "imovvoq4n1s",
-              "imovvoq4n1t"
+              "imox71zhe1s",
+              "imox71zhe1t"
             ]
           }
         },
@@ -1081,7 +1081,7 @@
           "time": 204,
           "state": {
             "hidden": [
-              "imovvoq4n1t"
+              "imox71zhe1t"
             ]
           }
         },
@@ -1094,5 +1094,4 @@
       ]
     }
   ]
-  
 }

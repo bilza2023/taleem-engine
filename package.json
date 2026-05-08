@@ -1,6 +1,6 @@
 {
   "name": "taleem-engine",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Deterministic educational presentation engine",
   "type": "module",
 
@@ -17,7 +17,7 @@
 
   "scripts": {
     "test": "vitest",
-    "example": "node examples/golden-dsl.js"
+    "example": "node examples/golden-dsl-8-may-26.js"
   },
 
   "keywords": [
